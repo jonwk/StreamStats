@@ -133,16 +133,17 @@ app.get('/refresh_token', async (context) => {
     })
 
     if (response.ok) {
-      const { access_token, expires_in } = await response.json()
+      // const { access_token, expires_in } = await response.json()
+      const responseData = await response.json()
 
       // Update access token cookie
-      setCookie(context, 'spotify_access_token', access_token, {
+      setCookie(context, 'spotify_access_token', responseData.ccess_token, {
         httpOnly: true,
         secure: true,
-        maxAge: expires_in
+        maxAge: responseData.expires_in
       })
 
-      return context.json({ success: true })
+      return context.json(responseData)
     } else {
       return context.text('Failed to refresh token', 400)
     }

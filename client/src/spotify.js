@@ -95,8 +95,8 @@ const getAccessToken = () => {
   const urlParameters = new URLSearchParams(queryString)
 
   const queryParameters = {
-    [LOCALSTORAGE_KEYS.access_token]: getCookie('access_token'),
-    [LOCALSTORAGE_KEYS.refresh_token]: getCookie('refresh_token'),
+    [LOCALSTORAGE_KEYS.access_token]: getCookie('spotify_access_token'),
+    [LOCALSTORAGE_KEYS.refresh_token]: getCookie('spotify_refresh_token'),
     [LOCALSTORAGE_KEYS.expire_time]: getCookie('expire_time'),
   }
 
@@ -129,13 +129,11 @@ const getAccessToken = () => {
 
 export const access_token = getAccessToken()
 
-/**
- * Axios global request headers
- * https://github.com/axios/axios#global-axios-defaults
- */
-axios.defaults.baseURL = 'https://api.spotify.com/v1'
-axios.defaults.headers['Authorization'] = `Bearer ${access_token}`
-axios.defaults.headers['Content-Type'] = 'application/json'
+if (access_token) {
+  axios.defaults.baseURL = 'https://api.spotify.com/v1'
+  axios.defaults.headers['Authorization'] = `Bearer ${access_token}`
+  axios.defaults.headers['Content-Type'] = 'application/json'
+}
 
 /**
  * Get current User's Profile
