@@ -108,7 +108,14 @@ if (access_token) {
  * https://developer.spotify.com/documentation/web-api/reference/#endpoint-get-current-users-profile
  *  @returns {Promise}
  */
-export const getCurrentUserProfile = () => axios.get('/me')
+export const getCurrentUserProfile = () => {
+  try {
+    return axios.get('/me')
+  } catch (error) {
+    console.log('Error getting current user profile:', error)
+    refreshToken()
+  }
+}
 
 /**
 * Get a List of Current User's Playlists
