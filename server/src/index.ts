@@ -1,4 +1,5 @@
 import { Hono } from 'hono'
+import { cors } from 'hono/cors'
 import { serveStatic } from 'hono/bun'
 import { Buffer } from 'buffer'
 import { URLSearchParams } from 'url'
@@ -18,6 +19,15 @@ if (!config.CLIENT_ID || !config.CLIENT_SECRET || !config.REDIRECT_URI || !confi
 }
 
 const app = new Hono()
+
+// middleware
+app.use('*', cors({
+  origin: [config.FRONTEND_URI],
+  credentials: true,
+  allowMethods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowHeaders: ['Content-Type', 'Authorization'],
+  exposeHeaders: ['Content-Length', 'X-Kuma-Revision']
+}))
 
 app.use('/static/*', serveStatic({ root: '../../client/public' }))
 
