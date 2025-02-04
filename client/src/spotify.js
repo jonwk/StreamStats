@@ -38,21 +38,19 @@ const hasTokenExpired = () => {
 const refreshToken = async () => {
   try {
     // Logout if there's no refresh token stored or we've managed to get into a reload infinite loop
-    if (
-      !LOCALSTORAGE_VALUES.refresh_token ||
-      LOCALSTORAGE_VALUES.refresh_token === 'undefined' ||
-      !globalThis.localStorage.getItem(LOCALSTORAGE_KEYS.access_token) ||
-      Date.now() - Number(LOCALSTORAGE_VALUES.timestamp) / 1000 < 1000
-    ) {
+    if (!LOCALSTORAGE_VALUES.refresh_token || LOCALSTORAGE_VALUES.refresh_token === 'undefined'
+      || !globalThis.localStorage.getItem(LOCALSTORAGE_KEYS.access_token) || Date.now() - Number(LOCALSTORAGE_VALUES.timestamp) / 1000 < 1000) {
       console.error('No refresh token available')
       logout()
     }
+    console.log('triggering refresh token')
 
     // Use `/refresh_token` endpoint from our Node app
-    const { data } = await axios.get(
-      `/refresh_token?refresh_token=${LOCALSTORAGE_VALUES.refresh_token}`
-    )
-
+    // const { data } = await axios.get(
+    //   `/refresh_token?refresh_token=${LOCALSTORAGE_VALUES.refresh_token}`
+    // )
+    const data = await axios.get('/refresh_token')
+    console.log('refreshed token', data)
     // Update localStorage values
     globalThis.localStorage.setItem(
       LOCALSTORAGE_KEYS.access_token,
@@ -67,37 +65,14 @@ const refreshToken = async () => {
   }
 }
 
-const getCookie = (name) => {
-  const cookies = document.cookie
-  if (cookies.split(';').length > 0) {
-    const result = cookies.split(';').find((cookie) => cookie.includes(name))
-    if (result) {
-      return result.trim().split('=')[1]
-    }
-  }
-  return
-}
-
-const clearCookies = () => {
-  const cookies = document.cookie.split(';')
-  
-  cookies.forEach(cookie => {
-    const [name] = cookie.split('=').map(c => c.trim())
-    
-    // eslint-disable-next-line unicorn/no-document-cookie
-    document.cookie = `${name}=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT; SameSite=None; Secure`
-  })
-}
-
-
 const getAccessToken = () => {
   const queryString = globalThis.location.search
   const urlParameters = new URLSearchParams(queryString)
 
   const queryParameters = {
-    [LOCALSTORAGE_KEYS.access_token]: getCookie('spotify_access_token'),
-    [LOCALSTORAGE_KEYS.refresh_token]: getCookie('spotify_refresh_token'),
-    [LOCALSTORAGE_KEYS.expire_time]: getCookie('expire_time'),
+    [LOCALSTORAGE_KEYS.access_token]: LOCALSTORAGE_VALUES.access_token,
+    [LOCALSTORAGE_KEYS.refresh_token]: LOCALSTORAGE_VALUES.refresh_token,
+    [LOCALSTORAGE_KEYS.expire_time]: LOCALSTORAGE_VALUES.expire_time,
   }
 
   const hasError = urlParameters.get('error')
@@ -197,8 +172,6 @@ export const logout = () => {
   for (const key in LOCALSTORAGE_KEYS) {
     globalThis.localStorage.removeItem(LOCALSTORAGE_KEYS[key])
   }
-  // Clear all cookies associated with auth
-  clearCookies()
   // Redirect to login or homepage
   globalThis.location.href = globalThis.location.origin
 }
