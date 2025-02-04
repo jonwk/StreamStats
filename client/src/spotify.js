@@ -114,12 +114,18 @@ export const getCurrentUserProfile = async () => {
     return response
   } catch (error) {
     if (error.response?.status === 401) {
-      // token expired, refresh and retry
-      const newToken = getAccessToken()
-      if (newToken) {
-        return await axios.get('/me')
+      try {
+        const newToken = getAccessToken()
+        if (newToken) {
+          return await axios.get('/me')
+        }
+      } catch (retryError) {
+        if (retryError.response?.status === 401) {
+          console.error('Token refresh failed, logging out')
+          logout()
+        }
+        throw retryError
       }
-      // logout()
     }
     throw error
   }
