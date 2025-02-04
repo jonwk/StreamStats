@@ -108,12 +108,20 @@ if (access_token) {
  * https://developer.spotify.com/documentation/web-api/reference/#endpoint-get-current-users-profile
  *  @returns {Promise}
  */
-export const getCurrentUserProfile = () => {
+export const getCurrentUserProfile = async () => {
   try {
-    return axios.get('/me')
+    const response = await axios.get('/me')
+    return response
   } catch (error) {
-    console.log('Error getting current user profile:', error)
-    refreshToken()
+    if (error.response?.status === 401) {
+      // token expired, refresh and retry
+      const newToken = getAccessToken()
+      if (newToken) {
+        return await axios.get('/me')
+      }
+      // logout()
+    }
+    throw error
   }
 }
 
