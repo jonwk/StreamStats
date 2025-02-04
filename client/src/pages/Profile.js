@@ -31,7 +31,7 @@ const Profile = () => {
     const fetchData = async () => {
 
       const userProfile = await getCurrentUserProfile()
-      setProfile(userProfile.data)
+      setProfile(userProfile?.data)
 
       const userPlaylists = await getCurrentUserPlaylists()
       setPlaylists(userPlaylists.data)
