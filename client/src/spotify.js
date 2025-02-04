@@ -75,43 +75,23 @@ const getAccessToken = () => {
   const urlParameters = new URLSearchParams(queryString)
   const hasError = urlParameters.get('error')
 
-  // If there's an error OR the token in localStorage has expired, refresh the token
-  if (hasError || hasTokenExpired() || LOCALSTORAGE_VALUES.access_token === 'undefined') {
-    refreshToken()
+  if (urlParameters.size > 0) {
+    for (const [key, value] of urlParameters) {
+      globalThis.localStorage.setItem(LOCALSTORAGE_KEYS[key], value)
+    }
+    globalThis.localStorage.setItem(LOCALSTORAGE_KEYS.timestamp, Date.now())
+    return urlParameters.get('access_token')
   }
 
-  // If there is a valid access token in localStorage, use that
   if (LOCALSTORAGE_VALUES.access_token && LOCALSTORAGE_VALUES.access_token !== 'undefined') {
     return LOCALSTORAGE_VALUES.access_token
   }
 
-  if (urlParameters.size > 0) {
-    for (const [key, value] of urlParameters) {
-      console.log(key, value)
-      globalThis.localStorage.setItem(LOCALSTORAGE_KEYS[key], value)
-    }
-    return LOCALSTORAGE_VALUES.access_token
+  if (hasError || hasTokenExpired() || LOCALSTORAGE_VALUES.access_token === 'undefined') {
+    refreshToken()
   }
 
-  const queryParameters = {
-    [LOCALSTORAGE_KEYS.access_token]: LOCALSTORAGE_VALUES.access_token,
-    [LOCALSTORAGE_KEYS.refresh_token]: LOCALSTORAGE_VALUES.refresh_token,
-    [LOCALSTORAGE_KEYS.expires_in]: LOCALSTORAGE_VALUES.expires_in,
-  }
-
-  // If there is a token in the URL query params, user is logging in for the first time
-  if (queryParameters[LOCALSTORAGE_KEYS.access_token]) {
-    // Store the query params in localStorage
-    for (const property in queryParameters) {
-      globalThis.localStorage.setItem(property, queryParameters[property])
-    }
-    // Set timestamp
-    globalThis.localStorage.setItem(LOCALSTORAGE_KEYS.timestamp, Date.now())
-    // Return access token from query params
-    return queryParameters[LOCALSTORAGE_KEYS.access_token]
-  }
-
-  // We should never get here!
+  // should never get here
   return false
 }
 
