@@ -124,10 +124,8 @@ export const getCurrentUserProfile = async () => {
           console.error('Token refresh failed, logging out')
           logout()
         }
-        throw retryError
       }
     }
-    throw error
   }
 }
 
