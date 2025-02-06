@@ -5,6 +5,7 @@ import { Loader, SectionWrapper, TrackList } from 'src/components'
 import { getPlaylistById } from 'src/spotify'
 import { StyledHeader } from 'src/styles'
 import { catchErrors } from 'src/util'
+import FadeIn from 'src/animations/FadeIn'
 
 const Playlist = () => {
     const { id } = useParams()
@@ -52,31 +53,35 @@ const Playlist = () => {
     }, [tracks])
 
     return (
-        <>
+        <FadeIn>
             {playlist && (
                 <>
-                    <StyledHeader>
-                        <div className="header__inner">
-                            {playlist.images && playlist.images.length > 0 && playlist.images[0].url && (
-                                <img className="header__img" src={playlist.images[0].url} alt="Playlist Artwork" />
-                            )}
-                            <div>
-                                <div className="header__overline">Playlist</div>
-                                <h1 className="header__name">{playlist.name}</h1>
-                                <p className="header__meta">
-                                    {playlist.followers.total ? (
-                                        <span>{playlist.followers.total} {`follower${playlist.followers.total === 1 ? '' : 's'}`}</span>
-                                    ) : undefined}
-                                    <span>{playlist.tracks.total} {`song${playlist.tracks.total === 1 ? '' : 's'}`}</span>
-                                </p>
+                    <FadeIn delay={50}>
+                        <StyledHeader>
+                            <div className="header__inner">
+                                {playlist.images && playlist.images.length > 0 && playlist.images[0].url && (
+                                    <img className="header__img" src={playlist.images[0].url} alt="Playlist Artwork" />
+                                )}
+                                <div>
+                                    <div className="header__overline">Playlist</div>
+                                    <h1 className="header__name">{playlist.name}</h1>
+                                    <p className="header__meta">
+                                        {playlist.followers.total ? (
+                                            <span>{playlist.followers.total} {`follower${playlist.followers.total === 1 ? '' : 's'}`}</span>
+                                        ) : undefined}
+                                        <span>{playlist.tracks.total} {`song${playlist.tracks.total === 1 ? '' : 's'}`}</span>
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                    </StyledHeader>
+                        </StyledHeader>
+                    </FadeIn>
 
                     <main>
                         <SectionWrapper title="Playlist" breadcrumb={true}>
                             {tracksForTracklist ? (
-                                <TrackList tracks={tracksForTracklist} />
+                                <FadeIn delay={100}>
+                                    <TrackList tracks={tracksForTracklist} />
+                                </FadeIn>
                             ) : (
                                 <Loader />
                             )}
@@ -84,7 +89,7 @@ const Playlist = () => {
                     </main>
                 </>
             )}
-        </>
+        </FadeIn>
     )
 }
 
