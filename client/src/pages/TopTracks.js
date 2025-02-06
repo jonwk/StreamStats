@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Loader, SectionWrapper, TimeRangeButtons, TrackList } from 'src/components'
+import FadeIn from 'src/animations/FadeIn'
 import { getCurrentUserTopTracks } from 'src/spotify'
 import { catchErrors } from 'src/util'
 
@@ -17,20 +18,27 @@ const TopTracks = () => {
     }, [activeRange])
 
     return (
-        <main>
-            <SectionWrapper title="Top Tracks" breadcrumb={true}>
-                <TimeRangeButtons
-                    activeRange={activeRange}
-                    setActiveRange={setActiveRange}
-                />
-
-                {topTracks && topTracks.items ? (
-                    <TrackList tracks={topTracks.items} />
-                ) : (
-                    <Loader />
-                )}
-            </SectionWrapper>
-        </main>
+        <FadeIn>
+            <main>
+                <SectionWrapper title="Top Tracks" breadcrumb={true}>
+                    <TimeRangeButtons
+                        activeRange={activeRange}
+                        setActiveRange={setActiveRange}
+                    />
+                    {topTracks && topTracks.items ? (
+                        <FadeIn
+                            key={activeRange}
+                            delay={100}
+                            transitionDuration={600}
+                        >
+                            <TrackList tracks={topTracks.items} />
+                        </FadeIn>
+                    ) : (
+                        <Loader />
+                    )}
+                </SectionWrapper>
+            </main>
+        </FadeIn>
     )
 }
 
