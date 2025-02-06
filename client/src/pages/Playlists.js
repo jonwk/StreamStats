@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { Loader, PlaylistsGrid, SectionWrapper } from 'src/components'
+import FadeIn from 'src/animations/FadeIn'
 import { getCurrentUserPlaylists } from 'src/spotify'
 import { catchErrors } from 'src/util'
 
@@ -47,15 +48,19 @@ const Playlists = () => {
     }, [playlistsData])
 
     return (
-        <main>
-            <SectionWrapper title="Public Playlists" breadcrumb={true}>
-                {playlists ? (
-                    <PlaylistsGrid playlists={playlists} />
-                ) : (
-                    <Loader />
-                )}
-            </SectionWrapper>
-        </main>
+        <FadeIn>
+            <main>
+                <SectionWrapper title="Public Playlists" breadcrumb={true}>
+                    {playlists ? (
+                        <FadeIn delay={100}>
+                            <PlaylistsGrid playlists={playlists} />
+                        </FadeIn>
+                    ) : (
+                        <Loader />
+                    )}
+                </SectionWrapper>
+            </main>
+        </FadeIn>
     )
 }
 
