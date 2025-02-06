@@ -7,11 +7,14 @@ import { catchErrors } from 'src/util'
 const TopTracks = () => {
     const [topTracks, setTopTracks] = useState()
     const [activeRange, setActiveRange] = useState('short')
+    const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
         const fetchData = async () => {
+            setIsLoading(true)
             const { data } = await getCurrentUserTopTracks(`${activeRange}_term`)
             setTopTracks(data)
+            setIsLoading(false)
         }
 
         catchErrors(fetchData())
@@ -25,7 +28,7 @@ const TopTracks = () => {
                         activeRange={activeRange}
                         setActiveRange={setActiveRange}
                     />
-                    {topTracks && topTracks.items ? (
+                    {!isLoading && topTracks && topTracks.items ? (
                         <FadeIn
                             key={activeRange}
                             delay={100}
