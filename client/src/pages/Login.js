@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
+import FadeIn from 'src/animations/FadeIn'
 
 const StyledLoginContainer = styled.main`
   display: flex;
@@ -31,9 +32,11 @@ const LOGIN_URI =
     : 'http://localhost:8888/login'
 
 const Login = () => (
-  <StyledLoginContainer>
-    <StyledLoginButton href={LOGIN_URI}>Log in to Spotify</StyledLoginButton>
-  </StyledLoginContainer>
+  <FadeIn>
+    <StyledLoginContainer>
+      <StyledLoginButton href={LOGIN_URI}>Log in to Spotify</StyledLoginButton>
+    </StyledLoginContainer>
+  </FadeIn>
 )
 
 export default Login
