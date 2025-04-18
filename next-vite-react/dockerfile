@@ -1,7 +1,5 @@
 FROM node:22-alpine
 
-# RUN echo "Hello World"
-# RUN ls
 WORKDIR /app
 
 # Copy package files
@@ -9,8 +7,6 @@ COPY package.json ./
 
 # Install dependencies
 RUN npm install
-
-RUN npm i -g serve
 
 # Copy all other source code files
 COPY . .
@@ -22,4 +18,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Command to run the application
-CMD [ "serve", "-s", "dist" ]
+CMD [ "npm", "run", "dev" ]
