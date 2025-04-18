@@ -1,11 +1,12 @@
 version: '3.8'
 services:
   web:
-    build: ./next-vite-react
+    build: ./my-app
     ports:
       - "3000:3000"
     volumes:
-      - ./next-vite-react:/app
+      - ./my-app:/app
       - /app/node_modules
+      - /app/.next
     environment:
       - NODE_ENV=development
