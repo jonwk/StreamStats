@@ -6,7 +6,6 @@ services:
       - "3000:3000"
     volumes:
       - ./next-vite-react:/app
-      # - /next-vite-react/node_modules
-      # - /next-vite-react/.next
+      - /app/node_modules
     environment:
       - NODE_ENV=development
