@@ -34,3 +34,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Developer notes
+For the Spotify API to work, you need to create a Spotify app and get the client id and secret. You can do this by following the steps in the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
+
+Once you have the client id and secret, you can set them as environment variables in a `.env` file in the root directory of your project. For example:
+
+```
+SPOTIFY_CLIENT_ID=your_client_id
+SPOTIFY_CLIENT_SECRET=your_client_secret
+```
+
+You can also set these variables as environment variables in your shell. For example, in a Mac or Linux terminal:
+
+```
+export SPOTIFY_CLIENT_ID=your_client_id
+export SPOTIFY_CLIENT_SECRET=your_client_secret
+```
+
+Then, make sure to add the following Redirect URI to your Spotify app:
+
+```
+http://localhost:3000/api/auth/callback/spotify
+```
