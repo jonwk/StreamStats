@@ -54,6 +54,7 @@ export SPOTIFY_CLIENT_SECRET=your_client_secret
 
 Then, make sure to add the following Redirect URI to your Spotify app:
 
+**‼️ Very important for auth to work ‼️**
 ```
 http://localhost:3000/api/auth/callback/spotify
 ```
