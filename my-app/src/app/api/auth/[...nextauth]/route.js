@@ -1,11 +1,22 @@
 import NextAuth from "next-auth/next";
 import SpotifyProvider from 'next-auth/providers/spotify';
 
+const scope = [
+  'user-read-private',
+  'user-read-email',
+  'user-read-recently-played',
+  'user-top-read',
+  'playlist-read-private',
+  'playlist-modify-private',
+  'playlist-modify-public'
+].join(' ')
+
 const options = {
   providers: [
     SpotifyProvider({
-      authorization:
-        'https://accounts.spotify.com/authorize?scope=user-read-email,playlist-read-private,playlist-modify-private,playlist-modify-public',
+      authorization: {
+        params: { scope }
+      },
       clientId: process.env.SPOTIFY_CLIENT_ID || '',
       clientSecret: process.env.SPOTIFY_CLIENT_SECRET || '',
     }),
