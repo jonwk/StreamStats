@@ -1,2 +1,8 @@
 #!/bin/bash
+if [ ! -d "./my-app/node_modules" ]; then
+  echo "Installing web node modules"
+  docker compose -f docker-compose.yml run --no-deps web npm install
+else
+  docker compose -f docker-compose.yml run --no-deps web npm ci
+fi
 docker compose -f docker-compose.yml build
