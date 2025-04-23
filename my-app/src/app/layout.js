@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import AuthProvider from "./AuthProvider";
 import StyledComponentsRegistry from '../lib/registry'
 import theme from '../styles/theme'
-import GlobalStyle from '../styles/GlobalStyle';
+import GlobalStyles from '../styles/GlobalStyles';
 import { ThemeProvider } from 'styled-components'
 
 const inter = Inter({ subsets: ["latin"] });
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <AuthProvider>
           <StyledComponentsRegistry>
-            <GlobalStyle />
+            <GlobalStyles />
             <ThemeProvider theme={theme}>
               {children}
             </ThemeProvider>
