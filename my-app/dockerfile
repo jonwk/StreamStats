@@ -1,4 +1,4 @@
-FROM node:22-alpine
+FROM node:23-alpine
 
 WORKDIR /app
 
@@ -9,7 +9,7 @@ COPY package.json ./
 RUN npm install
 
 # Copy all other source code files
-COPY . .
+COPY . ./
 
 # Build the Next.js application
 RUN npm run build
