@@ -1,6 +1,5 @@
 'use client'
 import styled from 'styled-components'
-import StyledComponentsRegistry from '../../lib/registry'
 
 const StyledLoginContainer = styled.main`
   display: flex;
@@ -33,9 +32,9 @@ const LOGIN_URI =
 
 
 const Login = () => (
-  <StyledLoginContainer>
-    <StyledLoginButton href={LOGIN_URI}>Log in to Spotify</StyledLoginButton>
-  </StyledLoginContainer>
+    <StyledLoginContainer>
+      <StyledLoginButton href={LOGIN_URI}>Log in to Spotify</StyledLoginButton>
+    </StyledLoginContainer>
 )
 
 export default Login
