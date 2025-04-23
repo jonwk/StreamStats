@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 import fonts from './fonts'
 import variables from './variables'
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   ${fonts};
   ${variables};
 
@@ -118,4 +118,4 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export default GlobalStyle
+export default GlobalStyles
