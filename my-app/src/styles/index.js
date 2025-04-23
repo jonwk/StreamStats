@@ -1,4 +1,4 @@
-export { default as GlobalStyle } from './GlobalStyle'
+export { default as GlobalStyle } from './GlobalStyles'
 export { default as Main } from './Main'
 export { default as media } from './media'
 export { default as mixins } from './mixins'
