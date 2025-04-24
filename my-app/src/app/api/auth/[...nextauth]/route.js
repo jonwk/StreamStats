@@ -7,8 +7,6 @@ const scope = [
   'user-read-recently-played',
   'user-top-read',
   'playlist-read-private',
-  'playlist-modify-private',
-  'playlist-modify-public'
 ].join(' ')
 
 const options = {
@@ -37,9 +35,7 @@ const options = {
   }
 }
 
-
 const handler = NextAuth(options);
-
 
 export { handler as GET, handler as POST };
 
