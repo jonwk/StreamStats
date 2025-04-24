@@ -1,7 +1,7 @@
 'use client'
 import styled from 'styled-components'
 import { useSession } from "next-auth/react";
-import { signIn } from "next-auth/react";
+import { signIn, signOut } from "next-auth/react";
 
 const StyledLoginContainer = styled.main`
   display: flex;
@@ -32,10 +32,11 @@ const Login = () => {
 
   if (session) {
     return (
-      <div>
-        <p>You are logged in!</p>
+      <StyledLoginContainer>
+        <h1>You are logged in!</h1>
         <code>{JSON.stringify(session, null, 2)}</code>
-      </div>
+        <StyledLoginButton onClick={() => signOut('spotify')}>Log out of Spotify</StyledLoginButton>
+      </StyledLoginContainer>
     )
   } else {
     return (
