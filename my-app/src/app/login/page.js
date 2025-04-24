@@ -1,5 +1,7 @@
 'use client'
 import styled from 'styled-components'
+import { useSession } from "next-auth/react";
+import { signIn } from "next-auth/react";
 
 const StyledLoginContainer = styled.main`
   display: flex;
@@ -9,7 +11,7 @@ const StyledLoginContainer = styled.main`
   height: 100vh;
 `
 
-const StyledLoginButton = styled.a`
+const StyledLoginButton = styled.button`
   display: inline-block;
   background-color: var(--green);
   color: var(--white);
@@ -25,16 +27,24 @@ const StyledLoginButton = styled.a`
   }
 `
 
-const LOGIN_URI =
-  process.env.NODE_ENV === 'production'
-    ? 'https://spotifics.vercel.app/login'
-    : 'http://localhost:3000/'
+const Login = () => {
+  const { data: session } = useSession();
 
+  if (session) {
+    return (
+      <div>
+        <p>You are logged in!</p>
+        <code>{JSON.stringify(session, null, 2)}</code>
+      </div>
+    )
+  } else {
+    return (
+      <StyledLoginContainer>
+        <StyledLoginButton onClick={() => signIn('spotify')}>Log in to Spotify</StyledLoginButton>
+      </StyledLoginContainer>
+    )
+  }
+}
 
-const Login = () => (
-    <StyledLoginContainer>
-      <StyledLoginButton href={LOGIN_URI}>Log in to Spotify</StyledLoginButton>
-    </StyledLoginContainer>
-)
 
 export default Login
