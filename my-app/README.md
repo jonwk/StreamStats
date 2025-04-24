@@ -60,3 +60,5 @@ http://localhost:3000/api/auth/callback/spotify
 ```
 
 For Styled Components to work with theme and global styles, look at this [blog post](https://dev.to/rashidshamloo/using-styled-components-with-nextjs-v13-typescript-2l6m)
+
+NextAuth Spotify Refresh Token implementation: [Reddit Link](https://www.reddit.com/r/nextjs/comments/10o6aup/next_auth_spotify_reauthentication_access_token/)
