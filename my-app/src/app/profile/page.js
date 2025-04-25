@@ -18,13 +18,8 @@ import {
 import FadeIn from '~/animations/FadeIn'
 import { StyledHeader, StyledTrackList } from '~/styles'
 import { catchErrors } from '~/util'
-import { useSession } from 'next-auth/react'
-import { useRouter } from 'next/navigation'
 
 const Profile = () => {
-  const router = useRouter()
-  const { data: session } = useSession()
-
   const [profile, setProfile] = useState()
   const [playlists, setPlaylists] = useState()
   const [topArtists, setTopArtists] = useState()
@@ -61,9 +56,6 @@ const Profile = () => {
     catchErrors(fetchData())
   }, [])
 
-  if (!session) return (
-    router.push('/')
-  )
 
   return (
     <div>
