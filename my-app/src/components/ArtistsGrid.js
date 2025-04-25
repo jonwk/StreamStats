@@ -1,6 +1,5 @@
 'use client'
-import { StyledGrid } from 'src/styles'
-import Image from'next/image'
+import { StyledGrid } from '~/styles'
 
 const ArtistsGrid = ({ artists }) => (
   <div>
@@ -11,7 +10,7 @@ const ArtistsGrid = ({ artists }) => (
             <div className="grid__item__inner">
               {artist.images[0] && (
                 <div className="grid__item__img">
-                  <Image src={artist.images[0].url} alt={artist.name} />
+                  <img src={artist.images[0].url} alt={artist.name} />
                 </div>
               )}
               <h3 className="grid__item__name overflow-ellipsis">
