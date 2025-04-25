@@ -1,7 +1,6 @@
 'use client'
-import { StyledTrackList } from 'src/styles'
-import { formatDuration } from 'src/util'
-import Image from 'next/image'
+import { StyledTrackList } from '~/styles'
+import { formatDuration } from '~/util'
 
 const TrackList = ({ tracks }) => (
   <div>
@@ -14,7 +13,7 @@ const TrackList = ({ tracks }) => (
               <div className="track__item__title-group">
                 {track.album.images && track.album.images.length > 0 && track.album.images[2] && (
                   <div className="track__item__img">
-                    <Image src={track.album.images[2].url} alt={track.name} />
+                    <img src={track.album.images[2].url} alt={track.name} />
                   </div>
                 )}
                 <div className="track__item__name-artist">

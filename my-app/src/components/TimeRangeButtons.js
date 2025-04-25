@@ -1,5 +1,5 @@
 'use client'
-import { StyledRangeButtons } from 'src/styles'
+import { StyledRangeButtons } from '~/styles'
 
 const TimeRangeButtons = ({ activeRange, setActiveRange }) => {
     return (

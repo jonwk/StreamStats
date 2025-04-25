@@ -1,10 +1,10 @@
 'use client';
 
 import { Inter } from "next/font/google";
-import AuthProvider from "./AuthProvider";
-import StyledComponentsRegistry from '../lib/registry'
-import theme from '../styles/theme'
-import GlobalStyles from '../styles/GlobalStyles';
+import AuthProvider from "~/app/AuthProvider";
+import StyledComponentsRegistry from '~/lib/registry'
+import theme from '~/styles/theme'
+import GlobalStyles from '~/styles/GlobalStyles'
 import { ThemeProvider } from 'styled-components'
 
 const inter = Inter({ subsets: ["latin"] });
