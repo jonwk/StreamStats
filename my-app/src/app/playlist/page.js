@@ -54,7 +54,7 @@ const Playlist = () => {
   }, [tracks])
 
   return playlist && (
-    <Suspense>
+    <>
       <StyledHeader>
         <div className="header__inner">
           {playlist.images && playlist.images.length > 0 && playlist.images[0].url && (
@@ -82,9 +82,15 @@ const Playlist = () => {
           )}
         </SectionWrapper>
       </main>
-    </Suspense>
+    </>
   )
 }
 
-
-export default Playlist
+const SuspensePlaylist = () => {
+  return (
+    <Suspense fallback={<Loader />}>
+      <Playlist />
+    </Suspense>
+  )
+}
+export default SuspensePlaylist
