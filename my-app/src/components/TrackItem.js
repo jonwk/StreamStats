@@ -6,7 +6,11 @@ const TrackItem = ({ track }, key) => {
   return (
     <div>
       <li className="track__item" >
-        <div className="track__item__num"> </div>
+        {track.playCount && (
+          <div className="recently__played__item__plays">
+            {track.playCount}
+          </div>
+        )}
         <div className="track__item__title-group">
           {track.album.images && track.album.images.length > 0 && track.album.images[2] && (
             <div className="track__item__img">
