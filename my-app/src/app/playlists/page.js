@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { Loader, PlaylistsGrid, SectionWrapper } from '~/components'
-import { getCurrentUserPlaylists, getMorePlaylists } from '~/app/api/spotify'
+import { getCurrentUserPlaylists, getMoreData } from '~/app/api/spotify'
 import { catchErrors } from '~/util'
 
 const Playlists = () => {
@@ -29,7 +29,7 @@ const Playlists = () => {
     // make sure we get ALL playlists by fetching the next set of playlists
     const fetchMoreData = async () => {
       if (playlistsData.next) {
-        const morePlaylistData = await getMorePlaylists(playlistsData.next)
+        const morePlaylistData = await getMoreData(playlistsData.next)
         setPlaylistsData(morePlaylistData)
       }
     }

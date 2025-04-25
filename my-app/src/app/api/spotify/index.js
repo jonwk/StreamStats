@@ -4,4 +4,4 @@ export { default as getCurrentUserTopArtists } from '~/app/api/spotify/getCurren
 export { default as getCurrentUserTopTracks } from '~/app/api/spotify/getCurrentUserTopTracks'
 export { default as getPlaylistById } from '~/app/api/spotify/getPlaylistById'
 export { default as getRecentlyPlayed } from '~/app/api/spotify/getRecentlyPlayed'
-export { default as getMorePlaylists } from '~/app/api/spotify/getMorePlaylists'
+export { default as getMoreData } from '~/app/api/spotify/getMoreData'
