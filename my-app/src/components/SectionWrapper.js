@@ -1,6 +1,6 @@
 'use client'
-import { Link } from 'react-router-dom'
-import { StyledSection } from 'src/styles'
+import Link from 'next/link'
+import { StyledSection } from '~/styles'
 
 const SectionWrapper = ({ children, title, seeAllLink, breadcrumb }) => (
   <StyledSection>
@@ -9,14 +9,14 @@ const SectionWrapper = ({ children, title, seeAllLink, breadcrumb }) => (
         <h2 className="section__heading">
           {breadcrumb && (
             <span className="section__breadcrumb">
-              <Link to="/">Profile</Link>
+              <Link href="/profile">Profile</Link>
             </span>
           )}
 
           {title && (
             <div>
               {seeAllLink ? (
-                <Link to={seeAllLink}>{title}</Link>
+                <Link href={seeAllLink}>{title}</Link>
               ) : (
                 <span>{title}</span>
               )}
@@ -24,7 +24,7 @@ const SectionWrapper = ({ children, title, seeAllLink, breadcrumb }) => (
           )}
         </h2>
         {seeAllLink && (
-          <Link to={seeAllLink} className="section__see-all">
+          <Link href={seeAllLink} className="section__see-all">
             See All
           </Link>
         )}
