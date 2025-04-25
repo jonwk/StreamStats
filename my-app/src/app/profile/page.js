@@ -38,22 +38,18 @@ const Profile = () => {
 
       try {
         const userProfile = await getCurrentUserProfile()
-        console.log('userProfile', userProfile)
         setProfile(userProfile)
 
         const userPlaylists = await getCurrentUserPlaylists()
         setPlaylists(userPlaylists)
 
         const topArtists = await getCurrentUserTopArtists()
-        console.log('topArtists', topArtists)
         setTopArtists(topArtists)
 
         const userRecentlyPlayed = await getRecentlyPlayed()
-        console.log('userRecentlyPlayed', userRecentlyPlayed)
         setRecentlyPlayed(userRecentlyPlayed)
 
         const topTracks = await getCurrentUserTopTracks()
-        console.log('topTracks', topTracks)
         setTopTracks(topTracks)
       } catch (error) {
         console.error('Error fetching data:', error)

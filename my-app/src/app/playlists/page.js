@@ -12,7 +12,6 @@ const Playlists = () => {
     const fetchData = async () => {
       const currentUserPlaylists = await getCurrentUserPlaylists()
       setPlaylistsData(currentUserPlaylists)
-      console.log('currentUserPlaylists', currentUserPlaylists)
     }
 
     catchErrors(fetchData())

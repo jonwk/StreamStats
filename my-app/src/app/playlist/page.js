@@ -17,7 +17,6 @@ const Playlist = () => {
   useEffect(() => {
     const fetchData = async () => {
       const playlistData = await getPlaylistById(id)
-      console.log(playlistData)
       setPlaylist(playlistData)
       setTracksData(playlistData.tracks)
     }

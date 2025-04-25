@@ -34,7 +34,6 @@ const Login = () => {
   const router = useRouter()
   const { data: session } = useSession()
   useEffect(() => {
-    console.log(session)
     if (session && !session.error) {
       router.push('/profile')
     }
