@@ -1,7 +1,6 @@
 'use client'
-import { Link } from 'react-router-dom'
-import { StyledGrid } from 'src/styles'
-import Image from 'next/image'
+import Link from 'next/link'
+import { StyledGrid } from '~/styles'
 
 const PlaylistsGrid = ({ playlists }) => (
   <div>
@@ -11,11 +10,11 @@ const PlaylistsGrid = ({ playlists }) => (
           <li className="grid__item" key={index}>
             <Link
               className="grid__item__inner"
-              to={`/playlists/${playlist.id}`}
+              href={`/playlist?id=${playlist.id}`}
             >
               {playlist.images && playlist.images.length > 0 && playlist.images[0] && (
                 <div className="grid__item__img">
-                  <Image src={playlist.images[0].url} alt={playlist.name} />
+                  <img src={playlist.images[0].url} alt={playlist.name} />
                 </div>
               )}
               <h3 className="grid__item__name overflow-ellipsis">
