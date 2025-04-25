@@ -3,8 +3,7 @@ import styled from 'styled-components'
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useSession } from "next-auth/react";
-import { signIn, signOut } from "next-auth/react";
-import Link from 'next/link';
+import { signIn } from "next-auth/react";
 
 const StyledLoginContainer = styled.main`
   display: flex;
