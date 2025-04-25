@@ -1,5 +1,5 @@
 'use client'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useState, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { Loader, SectionWrapper, TrackList } from '~/components'
 import { getPlaylistById, getMoreData } from '~/app/api/spotify'
@@ -54,7 +54,7 @@ const Playlist = () => {
   }, [tracks])
 
   return playlist && (
-    <>
+    <Suspense>
       <StyledHeader>
         <div className="header__inner">
           {playlist.images && playlist.images.length > 0 && playlist.images[0].url && (
@@ -82,7 +82,7 @@ const Playlist = () => {
           )}
         </SectionWrapper>
       </main>
-    </>
+    </Suspense>
   )
 }
 
