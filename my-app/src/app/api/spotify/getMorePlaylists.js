@@ -6,8 +6,8 @@ import getWrapper from "~/app/api/spotify/getWrapper";
  *  @returns {Promise}
  */
 
-const getCurrentUserPlaylists = (limit = 20) => {
-  return getWrapper({ urlEndpoint: `/me/playlists?limit=${limit}` })
+const getMorePlaylists = (playlistsNextUrl) => {
+  return getWrapper({ url: playlistsNextUrl })
 }
 
-export default getCurrentUserPlaylists
+export default getMorePlaylists

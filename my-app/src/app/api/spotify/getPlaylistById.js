@@ -8,7 +8,7 @@ import getWrapper from "~/app/api/spotify/getWrapper";
  */
 
 const getPlaylistById = (playlist_id) => {
-  return getWrapper(`/playlists/${playlist_id}`)
+  return getWrapper({ urlEndpoint: `/playlists/${playlist_id}` })
 }
 
 export default getPlaylistById

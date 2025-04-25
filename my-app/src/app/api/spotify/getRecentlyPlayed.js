@@ -8,7 +8,7 @@ import getWrapper from "~/app/api/spotify/getWrapper";
  */
 
 const getRecentlyPlayed = async (limit = 50) => {
-  const { items, ...recentlyPlayed } = await getWrapper(`/me/player/recently-played?limit=${limit}`)
+  const { items, ...recentlyPlayed } = await getWrapper({ urlEndpoint: `/me/player/recently-played?limit=${limit}` })
   const processedTracks = items.reduce((acc, recentlyPlayedItem, index, array) => {
     const { track, ...rest } = recentlyPlayedItem
     const prevTrack = index > 0 ? array[index - 1].track : null

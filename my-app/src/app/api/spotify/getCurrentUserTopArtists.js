@@ -1,4 +1,4 @@
-import getWrapper from "./getWrapper";
+import getWrapper from "~/app/api/spotify/getWrapper";
 
 /**
  * Get a User's Top Artists and Tracks
@@ -8,6 +8,6 @@ import getWrapper from "./getWrapper";
  */
 
 const getCurrentUserTopArtists = (time_range = 'short_term') => {
-  return getWrapper(`/me/top/artists?time_range=${time_range}`)
+  return getWrapper({ urlEndpoint: `/me/top/artists?time_range=${time_range}` })
 }
 export default getCurrentUserTopArtists

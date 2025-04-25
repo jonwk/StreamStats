@@ -8,7 +8,7 @@ import getWrapper from "~/app/api/spotify/getWrapper";
  */
 
 const getCurrentUserTopTracks = (time_range = 'short_term') => {
-  return getWrapper(`/me/top/tracks?time_range=${time_range}`)
+  return getWrapper({ urlEndpoint: `/me/top/tracks?time_range=${time_range}` })
 }
 
 export default getCurrentUserTopTracks
