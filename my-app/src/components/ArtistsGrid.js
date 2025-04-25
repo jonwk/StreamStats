@@ -8,11 +8,15 @@ const ArtistsGrid = ({ artists }) => (
         {artists.map((artist, index) => (
           <li className="grid__item" key={index}>
             <div className="grid__item__inner">
-              {artist.images[0] && (
-                <div className="grid__item__img">
-                  <img src={artist.images[0].url} alt={artist.name} />
-                </div>
-              )}
+              {artist.images.length > 0 ?
+                artist.images[0] && (
+                  <div className="grid__item__img">
+                    <img src={artist.images[0].url} alt={artist.name} />
+                  </div>
+                ) : (
+                  <div className="grid__item__img" />
+                )
+              }
               <h3 className="grid__item__name overflow-ellipsis">
                 {artist.name}
               </h3>
