@@ -28,6 +28,16 @@ const StyledTrackList = styled.ul`
     }
   }
 
+  .recently__played__item__plays {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: var(--fz-md);
+    overflow: visible;
+    border-color: var(--white);
+    border-radius: 50%;
+  }
+  
   .track__item__num {
     display: flex;
     align-items: center;
