@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/eslint-plugin-next": "^15.3.1",
     "install": "^0.13.0",
     "next": "^15.3.1",
     "next-auth": "^4.24.11",
