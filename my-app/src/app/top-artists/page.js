@@ -12,8 +12,8 @@ const TopArtists = () => {
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true)
-      const topArtists = await getCurrentUserTopArtists(`${activeRange}_term`)
-      setTopArtists(topArtists)
+      const currentUserTopArtists = await getCurrentUserTopArtists(`${activeRange}_term`)
+      setTopArtists(currentUserTopArtists)
       setIsLoading(false)
     }
 
