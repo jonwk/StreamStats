@@ -29,6 +29,7 @@ const DemoTopArtistsPage = () => {
       activeRange={activeRange}
       setActiveRange={setActiveRange}
       isLoading={isLoading}
+      isDemo={true}
     />
   )
 }

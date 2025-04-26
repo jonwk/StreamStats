@@ -4,7 +4,7 @@ import { ArtistsGrid, Loader, SectionWrapper, TimeRangeButtons } from '~/compone
 const TopArtists = ({ topArtists, activeRange, setActiveRange, isLoading, isDemo = false }) => {
   return (
     <main>
-      <SectionWrapper title="Top Artists" breadcrumb={true}>
+      <SectionWrapper title="Top Artists" breadcrumb={true} isDemo={isDemo}>
         <TimeRangeButtons
           activeRange={activeRange}
           setActiveRange={setActiveRange}
