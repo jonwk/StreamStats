@@ -1,31 +1,29 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { Loader, PlaylistsGrid, SectionWrapper } from '~/components'
+import { Playlists } from '~/components/Pages'
 import { getCurrentUserPlaylists, getMoreData } from '~/app/api/spotify'
 import { catchErrors } from '~/util'
 
-const Playlists = () => {
+const PlaylistsPage = () => {
   const [playlistsData, setPlaylistsData] = useState()
   const [playlists, setPlaylists] = useState()
+  const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     const fetchData = async () => {
-      const currentUserPlaylists = await getCurrentUserPlaylists()
-      setPlaylistsData(currentUserPlaylists)
+      setIsLoading(true)
+      const userPlaylists = await getCurrentUserPlaylists()
+      setPlaylistsData(userPlaylists)
     }
 
     catchErrors(fetchData())
   }, [])
 
-  // When playlistsData updates, check if there are more playlists to fetch
-  // then update the state variable
   useEffect(() => {
     if (!playlistsData) {
       return
     }
 
-    // Playlist endpoint only returns 20 playlists at a time, so we need to
-    // make sure we get ALL playlists by fetching the next set of playlists
     const fetchMoreData = async () => {
       if (playlistsData.next) {
         const morePlaylistData = await getMoreData(playlistsData.next)
@@ -33,30 +31,23 @@ const Playlists = () => {
       }
     }
 
-    // Use functional update to update playlists state variable
-    // to avoid including playlists as a dependency for this hook
-    // and creating an infinite loop
     setPlaylists(playlists => ([
       ...playlists ?? [],
       ...playlistsData.items
     ]))
 
-    // Fetch next set of playlists as needed
-    catchErrors(fetchMoreData())
+    console.log('main playlists',playlists)
 
+    catchErrors(fetchMoreData())
+    setIsLoading(false)
   }, [playlistsData])
 
   return (
-    <main>
-      <SectionWrapper title="Public Playlists" breadcrumb={true}>
-        {playlists ? (
-          <PlaylistsGrid playlists={playlists} />
-        ) : (
-          <Loader />
-        )}
-      </SectionWrapper>
-    </main>
+    <Playlists
+      playlists={playlists}
+      isLoading={isLoading}
+    />
   )
 }
 
-export default Playlists
+export default PlaylistsPage
