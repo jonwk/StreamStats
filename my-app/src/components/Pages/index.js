@@ -1,0 +1,1 @@
+export { default as Profile } from '~/components/Pages/Profile'
