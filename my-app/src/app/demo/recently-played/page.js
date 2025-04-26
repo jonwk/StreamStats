@@ -1,30 +1,34 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { RecentlyPlayed } from '~/components/Pages'
-import { getRecentlyPlayed } from '~/app/api/spotify'
-import { catchErrors } from '~/util'
 
-const RecentlyPlayedPage = () => {
+const DemoRecentlyPlayed = () => {
   const [recentlyPlayed, setRecentlyPlayed] = useState()
   const [isLoading, setIsLoading] = useState(true)
 
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true)
-      const userRecentlyPlayed = await getRecentlyPlayed()
-      setRecentlyPlayed(userRecentlyPlayed)
-      setIsLoading(false)
+      try {
+        const data = await import('~/app/demo/data/userRecentlyPlayed.json')
+        setRecentlyPlayed(data.default)
+      } catch (error) {
+        console.error('Error loading demo data:', error)
+      } finally {
+        setIsLoading(false)
+      }
     }
 
-    catchErrors(fetchData())
+    fetchData()
   }, [])
 
   return (
     <RecentlyPlayed
       recentlyPlayed={recentlyPlayed}
       isLoading={isLoading}
+      isDemo={true}
     />
   )
 }
 
-export default RecentlyPlayedPage
+export default DemoRecentlyPlayed
