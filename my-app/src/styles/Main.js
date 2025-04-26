@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {media} from '~/styles'
+import media from './media'
 
 const Main = styled.main`
   width: 100%;

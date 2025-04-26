@@ -1,5 +1,5 @@
 import { css } from 'styled-components'
-import {theme} from '~/styles'
+import theme from './theme'
 const { colors, fontSizes } = theme
 
 const mixins = {
