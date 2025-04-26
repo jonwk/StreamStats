@@ -10,4 +10,5 @@ const catchErrors = (function_) => {
     })
   }
 }
+
 export default catchErrors
