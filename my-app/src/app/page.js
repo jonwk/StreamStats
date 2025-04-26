@@ -13,14 +13,27 @@ const StyledLoginContainer = styled.main`
   align-items: center;
   gap: var(--spacing-sm);
   
-  h1.header__name {
-    font-size: clamp(3.5rem, 10vw, 5.5rem);
+  h1.login__title {
+    font-size: clamp(4rem, 10vw, 5.5rem);
     font-weight: 900;
     line-height: 1;
     margin: 0 0 var(--spacing-xs) 0;
 
     @media (min-width: 768px) {
       margin: 0 0 var(--spacing-xs) -5px;
+    }
+  } 
+  
+  h2.login__subtext {
+    font-size: 4/3rem;
+    letter-spacing: normal;
+    color: var(--light-grey);
+    line-height: 1;
+    margin: -15px 0 var(--spacing-sm) 0;
+
+    @media (min-width: 768px) {
+      margin: -15px 0 var(--spacing-md) -5px;
+      font-size: var(--fz-xl);
     }
   }
 `
@@ -91,7 +104,8 @@ const Login = () => {
 
   return (
     <StyledLoginContainer>
-      <h1 className="header__name">StreamStats</h1>
+      <h1 className="login__title">StreamStats</h1>
+      <h2 className="login__subtext">Spotify stats visulaized</h2>
       <StyledButtonsContainer>
         <StyledLoginButton onClick={() => signIn('spotify')}>Log in to Spotify</StyledLoginButton>
         <StyledDemoButton onClick={() => signIn('spotify')}>Demo</StyledDemoButton>
