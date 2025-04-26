@@ -7,10 +7,14 @@ import { signIn } from "next-auth/react";
 
 const StyledLoginContainer = styled.main`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  height: 100vh;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
+  @media (min-width: 768px) {
+    flex-direction: column;
+  }
 `
 
 const StyledLoginButton = styled.button`
@@ -18,9 +22,15 @@ const StyledLoginButton = styled.button`
   background-color: var(--green);
   color: var(--white);
   border-radius: var(--border-radius-pill);
+  border: 2px solid var(--green);
   font-weight: 700;
   font-size: var(--fz-lg);
   padding: var(--spacing-sm) var(--spacing-xl);
+  margin-right: var(--spacing-sm);
+  
+  @media (min-width: 768px) {
+    margin-bottom: var(--spacing-sm);
+  }
 
   &:hover,
   &:focus {
@@ -36,6 +46,11 @@ const StyledDemoButton = styled.button`
   font-weight: 700;
   font-size: var(--fz-lg);
   padding: var(--spacing-sm) var(--spacing-xl);
+  margin-right: var(--spacing-sm);
+  
+  @media (min-width: 768px) {
+    margin-bottom: var(--spacing-sm);
+  }
 
   &:hover,
   &:focus {
