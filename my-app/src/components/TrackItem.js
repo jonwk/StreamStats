@@ -42,8 +42,4 @@ const TrackItem = ({ track }, key) => {
   )
 }
 
-TrackItem.propTypes = {
-  track: PropTypes.object.isRequired,
-}
-
 export default TrackItem
