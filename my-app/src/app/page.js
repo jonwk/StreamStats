@@ -28,6 +28,24 @@ const StyledLoginButton = styled.button`
     filter: brightness(1.1);
   }
 `
+const StyledDemoButton = styled.button`
+  display: inline-block;
+  color: var(--green);
+  border: 2px solid var(--green);
+  border-radius: var(--border-radius-pill);
+  font-weight: 700;
+  font-size: var(--fz-lg);
+  padding: var(--spacing-sm) var(--spacing-xl);
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--white);
+    border-color: transparent;
+    filter: brightness(1.1);
+  }
+`
 
 const Login = () => {
   const router = useRouter()
@@ -41,6 +59,7 @@ const Login = () => {
   return (
     <StyledLoginContainer>
       <StyledLoginButton onClick={() => signIn('spotify')}>Log in to Spotify</StyledLoginButton>
+      <StyledDemoButton onClick={() => signIn('spotify')}>Demo</StyledDemoButton>
     </StyledLoginContainer>
   )
 }
