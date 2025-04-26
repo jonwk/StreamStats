@@ -42,7 +42,6 @@ const ProfilePage = () => {
           getCurrentUserTopTracks()
         ])
 
-        console.log('toptracks', topTracks)
         setData({
           profile: userProfile,
           playlists: userPlaylists,
