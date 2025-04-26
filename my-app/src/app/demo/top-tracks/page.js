@@ -1,10 +1,8 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { TopTracks } from '~/components/Pages'
-import { getCurrentUserTopTracks } from '~/app/api/spotify'
-import { catchErrors } from '~/util'
 
-const TopTracksPage = () => {
+const DemoTopTracks = () => {
   const [topTracks, setTopTracks] = useState()
   const [activeRange, setActiveRange] = useState('short')
   const [isLoading, setIsLoading] = useState(true)
@@ -12,12 +10,17 @@ const TopTracksPage = () => {
   useEffect(() => {
     const fetchData = async () => {
       setIsLoading(true)
-      const currentUsertopTracks= await getCurrentUserTopTracks(`${activeRange}_term`)
-      setTopTracks(currentUsertopTracks)
-      setIsLoading(false)
+      try {
+        const data = await import(`../../demo/data/topTracks_${activeRange}_term.json`)
+        setTopTracks(data.default)
+      } catch (error) {
+        console.error('Error loading demo data:', error)
+      } finally {
+        setIsLoading(false)
+      }
     }
 
-    catchErrors(fetchData())
+    fetchData()
   }, [activeRange])
 
   return (
@@ -26,8 +29,9 @@ const TopTracksPage = () => {
       activeRange={activeRange}
       setActiveRange={setActiveRange}
       isLoading={isLoading}
+      isDemo={true}
     />
   )
 }
 
-export default TopTracksPage
+export default DemoTopTracks
