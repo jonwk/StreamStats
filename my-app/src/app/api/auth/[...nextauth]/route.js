@@ -5,33 +5,35 @@ const SPOTIFY_REFRESH_TOKEN_URL = 'https://accounts.spotify.com/api/token'
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID
 const CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET
 
-async function refreshAccessToken(token) {
+const refreshAccessToken = async (token) => {
   try {
     const basicAuth = Buffer.from(`${CLIENT_ID}:${CLIENT_SECRET}`).toString(
       'base64'
     )
-    const { data } = await axios.post(
-      SPOTIFY_REFRESH_TOKEN_URL,
-      {
+    const response = await fetch(SPOTIFY_REFRESH_TOKEN_URL, {
+      method: 'POST',
+      headers: {
+        Authorization: `Basic ${basicAuth}`,
+        'Content-Type': 'application/x-www-form-urlencoded',
+      },
+      body: new URLSearchParams({
         grant_type: 'refresh_token',
         refresh_token: token.refreshToken,
-      },
-      {
-        headers: {
-          Authorization: `Basic ${basicAuth}`,
-          'Content-Type': 'application/x-www-form-urlencoded',
-        },
-      }
-    )
+      })
+    })
+
+    const data = await response.json()
+    
     return {
       ...token,
       accessToken: data.access_token,
       accessTokenExpires: Date.now() + data.expires_in * 1000,
     }
   } catch (error) {
+    console.log('auth/callback/spotify error', error)
     return {
       ...token,
-      error: 'RefreshAccessTokenError',
+      error: `RefreshAccessTokenError: ${error.message}`,
     }
   }
 }
