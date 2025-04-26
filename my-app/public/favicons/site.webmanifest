@@ -1,6 +1,6 @@
 {
-    "name": "Spotify Analytics",
-    "short_name": "Spotify Analytics",
+    "name": "StreamStats",
+    "short_name": "StreamStats",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
