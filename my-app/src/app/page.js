@@ -8,6 +8,7 @@ import { StyledLoginContainer, StyledMainButton } from '~/styles'
 const Login = () => {
   const router = useRouter()
   const { data: session } = useSession()
+  
   useEffect(() => {
     if (session && !session.error) {
       router.push('/profile')
@@ -20,7 +21,7 @@ const Login = () => {
       <h2 className="login__subtext">Spotify stats visulaized</h2>
       <div className='buttons__container'>
         <StyledMainButton className='login__button' onClick={() => signIn('spotify')}>Log in to Spotify</StyledMainButton>
-        <StyledMainButton className='demo__button' onClick={() => signIn('spotify')}>Demo</StyledMainButton>
+        <StyledMainButton className='demo__button' onClick={() => router.push('demo/profile')}>Demo</StyledMainButton>
       </div>
     </StyledLoginContainer>
   )
