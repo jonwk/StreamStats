@@ -1,7 +1,6 @@
 'use client'
 import { ThemeProvider } from 'styled-components'
-import GlobalStyles from '~/styles/GlobalStyles'
-import theme from '~/styles/theme'
+import {GlobalStyles, theme} from '~/styles'
 import { LogoutButton, ScrollToTop } from "~/components"
 import { useSession } from "next-auth/react"
 

@@ -1,5 +1,4 @@
 'use client'
-import PropTypes from 'prop-types'
 import { formatDuration } from '~/util'
 
 const TrackItem = ({ track }, key) => {
