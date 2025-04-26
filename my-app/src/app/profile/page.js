@@ -18,8 +18,10 @@ import {
 import FadeIn from '~/animations/FadeIn'
 import { StyledHeader, StyledTrackList } from '~/styles'
 import { catchErrors } from '~/util'
+import useLogoutOnError from '~/hooks/useLogoutOnError'
 
 const Profile = () => {
+  const handleLogoutError = useLogoutOnError()
   const [profile, setProfile] = useState()
   const [playlists, setPlaylists] = useState()
   const [topArtists, setTopArtists] = useState()
@@ -47,7 +49,8 @@ const Profile = () => {
         const topTracks = await getCurrentUserTopTracks()
         setTopTracks(topTracks)
       } catch (error) {
-        console.error('Error fetching data:', error)
+        console.log('Error fetching data:', error)
+        await handleLogoutError()
       } finally {
         setLoading(false)
       }
