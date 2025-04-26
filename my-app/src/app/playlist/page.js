@@ -1,24 +1,31 @@
 'use client'
 import { useEffect, useMemo, useState, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
-import { Loader, SectionWrapper, TrackList } from '~/components'
+import { Loader } from '~/components'
 import { getPlaylistById, getMoreData } from '~/app/api/spotify'
-import { StyledHeader } from '~/styles'
 import { catchErrors } from '~/util'
+import { Playlist } from '~/components/Pages'
 
-const Playlist = () => {
+const PlaylistPage = () => {
   const searchParams = useSearchParams()
   const id = searchParams.get('id')
 
   const [playlist, setPlaylist] = useState()
   const [tracksData, setTracksData] = useState()
   const [tracks, setTracks] = useState()
+  const [loading, setLoading] = useState(true)
+
 
   useEffect(() => {
     const fetchData = async () => {
+      setLoading(true)
+
       const playlistData = await getPlaylistById(id)
       setPlaylist(playlistData)
       setTracksData(playlistData.tracks)
+      
+      setLoading(false)
+
     }
 
     catchErrors(fetchData())
@@ -53,44 +60,21 @@ const Playlist = () => {
     return tracks.map(({ track }) => track)
   }, [tracks])
 
-  return playlist && (
-    <>
-      <StyledHeader>
-        <div className="header__inner">
-          {playlist.images && playlist.images.length > 0 && playlist.images[0].url && (
-            <img className="header__img" src={playlist.images[0].url} alt="Playlist Artwork" />
-          )}
-          <div>
-            <div className="header__overline">Playlist</div>
-            <h1 className="header__name">{playlist.name}</h1>
-            <p className="header__meta">
-              {playlist.followers.total ? (
-                <span>{playlist.followers.total} {`follower${playlist.followers.total === 1 ? '' : 's'}`}</span>
-              ) : undefined}
-              <span>{playlist.tracks.total} {`song${playlist.tracks.total === 1 ? '' : 's'}`}</span>
-            </p>
-          </div>
-        </div>
-      </StyledHeader>
-
-      <main>
-        <SectionWrapper title="Playlist" breadcrumb={true}>
-          {tracksForTracklist ? (
-            <TrackList tracks={tracksForTracklist} />
-          ) : (
-            <Loader />
-          )}
-        </SectionWrapper>
-      </main>
-    </>
+  return (
+    <Playlist
+      playlist={playlist}
+      tracksForTracklist={tracksForTracklist}
+      loading={loading}
+    />
   )
 }
 
 const SuspensePlaylist = () => {
   return (
     <Suspense fallback={<Loader />}>
-      <Playlist />
+      <PlaylistPage />
     </Suspense>
   )
 }
+
 export default SuspensePlaylist
