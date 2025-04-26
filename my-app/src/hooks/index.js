@@ -1,0 +1,1 @@
+export {default as useLogoutOnError} from '~/hooks/useLogoutOnError'
