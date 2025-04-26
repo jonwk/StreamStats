@@ -1,8 +1,9 @@
 'use client'
 import Link from 'next/link'
 import { StyledGrid } from '~/styles'
+import { getLink } from '~/util'
 
-const PlaylistsGrid = ({ playlists }) => (
+const PlaylistsGrid = ({ playlists, isDemo = false }) => (
   <div>
     {playlists && playlists.length > 0 ? (
       <StyledGrid>
@@ -10,7 +11,8 @@ const PlaylistsGrid = ({ playlists }) => (
           <li className="grid__item" key={index}>
             <Link
               className="grid__item__inner"
-              href={`/playlist?id=${playlist.id}`}
+
+              href={getLink(`/playlist?id=${playlist.id}`, isDemo)}
             >
               {playlist.images && playlist.images.length > 0 && playlist.images[0] && (
                 <div className="grid__item__img">
