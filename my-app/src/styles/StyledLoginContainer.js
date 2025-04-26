@@ -6,6 +6,7 @@ const StyledLoginContainer = styled.main`
   height: 100vh;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: var(--spacing-sm);
   
   h1.login__title {
@@ -24,10 +25,10 @@ const StyledLoginContainer = styled.main`
     letter-spacing: normal;
     color: var(--light-grey);
     line-height: 1;
-    margin: -15px 0 var(--spacing-sm) 0;
+    margin: -10px 0 var(--spacing-xl) 0;
 
     @media (min-width: 768px) {
-      margin: -15px 0 var(--spacing-md) -5px;
+      margin: -10px 0 var(--spacing-lg) -5px;
       font-size: var(--fz-xl);
     }
   }
@@ -37,7 +38,7 @@ const StyledLoginContainer = styled.main`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-md);
 
     @media (min-width: 768px) {
       flex-direction: row;
