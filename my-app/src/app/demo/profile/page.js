@@ -54,6 +54,7 @@ const DemoProfilePage = () => {
       topTracks={data.topTracks}
       recentlyPlayed={data.recentlyPlayed}
       loading={loading}
+      isDemo={true}
     />
   )
 }
