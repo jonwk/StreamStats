@@ -1,13 +1,13 @@
 'use client'
 import { Loader, PlaylistsGrid, SectionWrapper } from '~/components'
 
-const Playlists = ({ playlists, isLoading, isDemo = false }) => {
+const Playlists = ({ playlists, loading, isDemo = false }) => {
   return (
     <main>
       <SectionWrapper title="Public Playlists" breadcrumb={true} isDemo={isDemo}>
         <div style={{ minHeight: '60vh', position: 'relative' }}>
-          {!isLoading && playlists ? (
-            <PlaylistsGrid playlists={playlists} />
+          {!loading && playlists ? (
+            <PlaylistsGrid playlists={playlists} isDemo={isDemo} />
           ) : (
             <Loader />
           )}
