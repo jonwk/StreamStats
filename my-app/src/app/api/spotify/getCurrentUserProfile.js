@@ -7,7 +7,7 @@ import getWrapper from "~/app/api/spotify/getWrapper";
  */
 
 const getCurrentUserProfile = () => {
-  return getWrapper({urlEndpoint:'/me'})
+  return getWrapper({ urlEndpoint: '/me' })
 }
 
 export default getCurrentUserProfile
