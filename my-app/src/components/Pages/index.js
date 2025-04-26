@@ -1,3 +1,4 @@
+export { default as Playlist } from '~/components/Pages/Playlist'
 export { default as Playlists } from '~/components/Pages/Playlists'
 export { default as Profile } from '~/components/Pages/Profile'
 export { default as RecentlyPlayed } from '~/components/Pages/RecentlyPlayed'
