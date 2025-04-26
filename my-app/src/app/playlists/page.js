@@ -36,8 +36,6 @@ const PlaylistsPage = () => {
       ...playlistsData.items
     ]))
 
-    console.log('main playlists',playlists)
-
     catchErrors(fetchMoreData())
     setIsLoading(false)
   }, [playlistsData])
