@@ -67,7 +67,7 @@ const Profile = ({ profile, playlists, topArtists, topTracks, recentlyPlayed, lo
             </SectionWrapper>
 
             <SectionWrapper title="Public Playlists" seeAllLink={getLink('/playlists', isDemo)}>
-              {playlists ? (<PlaylistsGrid playlists={playlists.items.slice(0, 10)} />) : (<Loader />)}
+              {playlists ? (<PlaylistsGrid playlists={playlists.items.slice(0, 10)} isDemo />) : (<Loader />)}
             </SectionWrapper>
           </main>
         </div>
