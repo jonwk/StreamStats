@@ -110,6 +110,43 @@
     },
     {
       "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1w5Kfo2jwwIPruYS2UWh56"
+      },
+      "followers": {
+        "href": null,
+        "total": 9542197
+      },
+      "genres": [
+        "grunge",
+        "rock",
+        "post-grunge"
+      ],
+      "href": "https://api.spotify.com/v1/artists/1w5Kfo2jwwIPruYS2UWh56",
+      "id": "1w5Kfo2jwwIPruYS2UWh56",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe431fb8ba17cdee73e4ce08a",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e431fb8ba17cdee73e4ce08a",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e431fb8ba17cdee73e4ce08a",
+          "width": 160
+        }
+      ],
+      "name": "Pearl Jam",
+      "popularity": 77,
+      "type": "artist",
+      "uri": "spotify:artist:1w5Kfo2jwwIPruYS2UWh56"
+    },
+    {
+      "external_urls": {
         "spotify": "https://open.spotify.com/artist/6ZRkCThyw6syuSOAGT7lY1"
       },
       "followers": {
@@ -196,17 +233,17 @@
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5eb4b36d28b55620959821f4a5b",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6ccc1215f5b205aa6b34b48b",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab676161000051744b36d28b55620959821f4a5b",
+          "url": "https://i.scdn.co/image/ab676161000051746ccc1215f5b205aa6b34b48b",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f1784b36d28b55620959821f4a5b",
+          "url": "https://i.scdn.co/image/ab6761610000f1786ccc1215f5b205aa6b34b48b",
           "width": 160
         }
       ],
@@ -358,43 +395,6 @@
     },
     {
       "external_urls": {
-        "spotify": "https://open.spotify.com/artist/1w5Kfo2jwwIPruYS2UWh56"
-      },
-      "followers": {
-        "href": null,
-        "total": 9542197
-      },
-      "genres": [
-        "grunge",
-        "rock",
-        "post-grunge"
-      ],
-      "href": "https://api.spotify.com/v1/artists/1w5Kfo2jwwIPruYS2UWh56",
-      "id": "1w5Kfo2jwwIPruYS2UWh56",
-      "images": [
-        {
-          "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5ebe431fb8ba17cdee73e4ce08a",
-          "width": 640
-        },
-        {
-          "height": 320,
-          "url": "https://i.scdn.co/image/ab67616100005174e431fb8ba17cdee73e4ce08a",
-          "width": 320
-        },
-        {
-          "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f178e431fb8ba17cdee73e4ce08a",
-          "width": 160
-        }
-      ],
-      "name": "Pearl Jam",
-      "popularity": 77,
-      "type": "artist",
-      "uri": "spotify:artist:1w5Kfo2jwwIPruYS2UWh56"
-    },
-    {
-      "external_urls": {
         "spotify": "https://open.spotify.com/artist/1yxSLGMDHlW21z4YXirZDS"
       },
       "followers": {
@@ -407,17 +407,17 @@
       "images": [
         {
           "height": 640,
-          "url": "https://i.scdn.co/image/ab6761610000e5ebb3037310c07b99cbefbd2c6d",
+          "url": "https://i.scdn.co/image/ab6761610000e5eb6abca3789c7f4826ed99db2e",
           "width": 640
         },
         {
           "height": 320,
-          "url": "https://i.scdn.co/image/ab67616100005174b3037310c07b99cbefbd2c6d",
+          "url": "https://i.scdn.co/image/ab676161000051746abca3789c7f4826ed99db2e",
           "width": 320
         },
         {
           "height": 160,
-          "url": "https://i.scdn.co/image/ab6761610000f178b3037310c07b99cbefbd2c6d",
+          "url": "https://i.scdn.co/image/ab6761610000f1786abca3789c7f4826ed99db2e",
           "width": 160
         }
       ],
