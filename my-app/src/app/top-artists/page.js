@@ -1,10 +1,10 @@
 'use client'
 import { useEffect, useState } from 'react'
-import { ArtistsGrid, Loader, SectionWrapper, TimeRangeButtons } from '~/components'
 import { getCurrentUserTopArtists } from '~/app/api/spotify'
 import { catchErrors } from '~/util'
+import { TopArtists } from '~/components/Pages'
 
-const TopArtists = () => {
+const TopArtistsPage = () => {
   const [topArtists, setTopArtists] = useState()
   const [activeRange, setActiveRange] = useState('short')
   const [isLoading, setIsLoading] = useState(true)
@@ -21,22 +21,13 @@ const TopArtists = () => {
   }, [activeRange])
 
   return (
-    <main>
-      <SectionWrapper title="Top Artists" breadcrumb={true}>
-        <TimeRangeButtons
-          activeRange={activeRange}
-          setActiveRange={setActiveRange}
-        />
-        <div style={{ minHeight: '60vh', position: 'relative' }}>
-          {!isLoading && topArtists && topArtists.items ? (
-            <ArtistsGrid artists={topArtists.items} />
-          ) : (
-            <Loader />
-          )}
-        </div>
-      </SectionWrapper>
-    </main>
+    <TopArtists
+      topArtists={topArtists}
+      activeRange={activeRange}
+      setActiveRange={setActiveRange}
+      isLoading={isLoading}
+    />
   )
 }
 
-export default TopArtists
+export default TopArtistsPage
