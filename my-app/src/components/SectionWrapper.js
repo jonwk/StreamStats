@@ -1,15 +1,16 @@
 'use client'
 import Link from 'next/link'
 import { StyledSection } from '~/styles'
+import { getLink } from '~/util'
 
-const SectionWrapper = ({ children, title, seeAllLink, breadcrumb }) => (
+const SectionWrapper = ({ children, title, seeAllLink, breadcrumb, isDemo = false }) => (
   <StyledSection>
     <div className="section__inner">
       <div className="section__top">
         <h2 className="section__heading">
           {breadcrumb && (
             <span className="section__breadcrumb">
-              <Link href="/profile">Profile</Link>
+              <Link href={getLink("/profile", isDemo)}>Profile</Link>
             </span>
           )}
 
