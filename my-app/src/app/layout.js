@@ -3,9 +3,9 @@ import StyledComponentsRegistry from '~/lib/registry'
 import { AuthenticatedClientLayout } from '~/components'
 
 export const metadata = {
+  metadataBase: new URL(process.env.METADATA_BASE_URL),
   title: 'StreamStats',
   description: 'Web app for visualzing personalized Spotify Stats',
-  themeColor: '#1DB954',
   icons: {
     icon: [
       { url: '/favicons/favicon.ico', sizes: 'any' },
@@ -29,6 +29,10 @@ export const metadata = {
     creator: '@jonwk',
     images: '/og.png'
   }
+}
+
+export const viewport = {
+  themeColor: '#1DB954'
 }
 
 export default function RootLayout({ children }) {
