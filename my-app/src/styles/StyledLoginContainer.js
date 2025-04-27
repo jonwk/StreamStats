@@ -25,7 +25,7 @@ const StyledLoginContainer = styled.main`
     letter-spacing: normal;
     color: var(--light-grey);
     line-height: 1;
-    margin: -10px 0 var(--spacing-xl) 0;
+    margin: -5px 0 var(--spacing-xl) 0;
 
     @media (min-width: 768px) {
       margin: -10px 0 var(--spacing-lg) -5px;
