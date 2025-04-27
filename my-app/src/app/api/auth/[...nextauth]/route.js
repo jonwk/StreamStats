@@ -1,5 +1,5 @@
-import NextAuth from "next-auth/next";
-import SpotifyProvider from 'next-auth/providers/spotify';
+import NextAuth from 'next-auth/next'
+import SpotifyProvider from 'next-auth/providers/spotify'
 
 const SPOTIFY_REFRESH_TOKEN_URL = 'https://accounts.spotify.com/api/token'
 const CLIENT_ID = process.env.SPOTIFY_CLIENT_ID
@@ -81,8 +81,8 @@ const options = {
   }
 }
 
-const handler = NextAuth(options);
+const handler = NextAuth(options)
 
-export { handler as GET, handler as POST };
+export { handler as GET, handler as POST }
 
 
