@@ -1,6 +1,7 @@
 'use client'
 import { Loader, SectionWrapper, TrackList } from '~/components'
 import { StyledHeader } from '~/styles'
+import { MotionFade } from '~/animations'
 
 const Playlist = ({ playlist, tracksForTracklist, isLoading, isDemo = false }) => {
   return (
@@ -8,7 +9,7 @@ const Playlist = ({ playlist, tracksForTracklist, isLoading, isDemo = false }) =
       {isLoading ? (
         <Loader />
       ) : playlist && (
-        <>
+        <MotionFade>
           <StyledHeader>
             <div className="header__inner">
               {playlist.images.length > 0 && playlist.images[0].url && (
@@ -35,14 +36,16 @@ const Playlist = ({ playlist, tracksForTracklist, isLoading, isDemo = false }) =
             <SectionWrapper title="Playlist" breadcrumb={true} isDemo={isDemo}>
               <div style={{ minHeight: '60vh', position: 'relative' }}>
                 {tracksForTracklist ? (
-                  <TrackList tracks={playlist.tracks.items.map(({ track }) => track)} />
+                  <MotionFade delay={0.2}>
+                    <TrackList tracks={playlist.tracks.items.map(({ track }) => track)} />
+                  </MotionFade>
                 ) : (
                   <Loader />
                 )}
               </div>
             </SectionWrapper>
           </main>
-        </>
+        </MotionFade>
       )}
     </>
   )
