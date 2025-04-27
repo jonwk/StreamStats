@@ -4,7 +4,7 @@ import pluginReact from 'eslint-plugin-react'
 import { defineConfig } from 'eslint/config'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 
-const rules = {
+const rules =  {
   'semi': ['error', 'never'],
   'quotes': ['error', 'single', {
     'avoidEscape': true
@@ -40,6 +40,7 @@ const rules = {
   'unicorn/no-array-reduce': 'off',
   'unicorn/no-array-for-each': 'off',
   'react/prop-types': 'off',
+  "react/react-in-jsx-scope": "off",
   'react/function-component-definition': ['error', {
     'namedComponents': 'arrow-function',
     'unnamedComponents': 'arrow-function'
