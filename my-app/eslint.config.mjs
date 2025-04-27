@@ -65,7 +65,6 @@ export default defineConfig([
     files: ['**/*.{js,mjs,cjs,jsx}'],
     plugins: { js, unicorn: eslintPluginUnicorn },
     languageOptions: { globals: globals.browser },
-    rules: rules,
     settings: {
       'react': {
         'version': 'detect'
