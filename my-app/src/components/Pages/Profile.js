@@ -51,19 +51,19 @@ const Profile = ({ profile, playlists, topArtists, topTracks, recentlyPlayed, lo
 
             <main>
               <MotionFade delay={0.2}>
-                <SectionWrapper title="Top artists this month" seeAllLink={getLink('/top-artists', isDemo)}>
+                <SectionWrapper title="Top artists this month" seeAllLink={getLink('/top-artists', isDemo)} isDemo={isDemo}>
                   {topArtists ? (<ArtistsGrid artists={topArtists.items.slice(0, 10)} />) : (<Loader />)}
                 </SectionWrapper>
               </MotionFade>
 
               <MotionFade delay={0.3}>
-                <SectionWrapper title="Top tracks this month" seeAllLink={getLink('/top-tracks', isDemo)}>
+                <SectionWrapper title="Top tracks this month" seeAllLink={getLink('/top-tracks', isDemo)} isDemo={isDemo}>
                   {topTracks ? (<TrackList tracks={topTracks.items.slice(0, 10)} />) : (<Loader />)}
                 </SectionWrapper>
               </MotionFade>
 
               <MotionFade delay={0.4}>
-                <SectionWrapper title="Recently Played" seeAllLink={getLink('/recently-played', isDemo)}>
+                <SectionWrapper title="Recently Played" seeAllLink={getLink('/recently-played', isDemo)} isDemo={isDemo}>
                   {recentlyPlayed ? (
                     <StyledTrackList>
                       {recentlyPlayed.items.slice(0, 10).map(({ track }, index) => (
@@ -75,8 +75,8 @@ const Profile = ({ profile, playlists, topArtists, topTracks, recentlyPlayed, lo
               </MotionFade>
 
               <MotionFade delay={0.5}>
-                <SectionWrapper title="Public Playlists" seeAllLink={getLink('/playlists', isDemo)}>
-                  {playlists ? (<PlaylistsGrid playlists={playlists.items.slice(0, 10)} isDemo />) : (<Loader />)}
+                <SectionWrapper title="Public Playlists" seeAllLink={getLink('/playlists', isDemo)} isDemo={isDemo}>
+                  {playlists ? (<PlaylistsGrid playlists={playlists.items.slice(0, 10)} isDemo={isDemo} />) : (<Loader />)}
                 </SectionWrapper>
               </MotionFade>
             </main>
