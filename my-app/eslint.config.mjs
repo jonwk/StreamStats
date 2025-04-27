@@ -4,9 +4,7 @@ import pluginReact from 'eslint-plugin-react'
 import { defineConfig } from 'eslint/config'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 
-const isProduction = process.env.NODE_ENV === 'production'
-
-const rules = isProduction ? {} : {
+const rules =  {
   'semi': ['error', 'never'],
   'quotes': ['error', 'single', {
     'avoidEscape': true
@@ -55,6 +53,7 @@ export default defineConfig([
     plugins: { js, unicorn: eslintPluginUnicorn },
     extends: ['js/recommended'],
     rules: rules,
+    ignoreDuringBuilds: true,
     settings: {
       'react': {
         'version': 'detect'
@@ -65,6 +64,8 @@ export default defineConfig([
     files: ['**/*.{js,mjs,cjs,jsx}'],
     plugins: { js, unicorn: eslintPluginUnicorn },
     languageOptions: { globals: globals.browser },
+    rules: rules,
+    ignoreDuringBuilds: true,
     settings: {
       'react': {
         'version': 'detect'
