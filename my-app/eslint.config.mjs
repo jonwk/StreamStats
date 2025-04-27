@@ -4,7 +4,9 @@ import pluginReact from 'eslint-plugin-react'
 import { defineConfig } from 'eslint/config'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 
-const rules =  {
+const isProduction = process.env.NODE_ENV === 'production'
+
+const rules = isProduction ? {} : {
   'semi': ['error', 'never'],
   'quotes': ['error', 'single', {
     'avoidEscape': true
