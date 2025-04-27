@@ -11,7 +11,6 @@ const PlaylistsGrid = ({ playlists, isDemo = false }) => (
           <li className="grid__item" key={index}>
             <Link
               className="grid__item__inner"
-
               href={getLink(`/playlist?id=${playlist.id}`, isDemo)}
             >
               {playlist.images && playlist.images.length > 0 && playlist.images[0] && (
