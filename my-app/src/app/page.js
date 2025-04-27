@@ -1,7 +1,7 @@
 'use client'
-import { useEffect } from 'react';
-import { useRouter } from 'next/navigation';
-import { useSession, signIn } from "next-auth/react";
+import { useEffect } from 'react'
+import { useRouter } from 'next/navigation'
+import { useSession, signIn } from 'next-auth/react'
 import { StyledLoginContainer, StyledMainButton } from '~/styles'
 import { MotionFade } from '~/animations'
 
@@ -37,4 +37,4 @@ const Login = () => {
   )
 }
 
-export default Login;
+export default Login

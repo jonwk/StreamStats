@@ -1,5 +1,5 @@
 'use client'
-import * as motion from "motion/react-client"
+import * as motion from 'motion/react-client'
 
 const MotionFade = ({ children, delay = 0, y = 0 }) => {
   return (

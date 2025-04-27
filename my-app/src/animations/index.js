@@ -1,1 +1,1 @@
-export {default as MotionFade} from '~/animations/MotionFade'
+export { default as MotionFade } from '~/animations/MotionFade'

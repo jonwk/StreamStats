@@ -1,4 +1,4 @@
-import getWrapper from "~/app/api/spotify/getWrapper";
+import getWrapper from '~/app/api/spotify/getWrapper'
 
 /**
  * Get a User's Top Artists and Tracks

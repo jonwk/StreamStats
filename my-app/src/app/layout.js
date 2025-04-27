@@ -1,4 +1,4 @@
-import AuthProvider from "~/app/AuthProvider";
+import AuthProvider from '~/app/AuthProvider'
 import StyledComponentsRegistry from '~/lib/registry'
 import { AuthenticatedClientLayout } from '~/components'
 
@@ -48,5 +48,5 @@ export default function RootLayout({ children }) {
         </AuthProvider>
       </body>
     </html>
-  );
+  )
 }

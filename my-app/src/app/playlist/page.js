@@ -7,8 +7,8 @@ import { catchErrors } from '~/util'
 import { Playlist } from '~/components/Pages'
 
 const PlaylistPage = () => {
-  const searchParams = useSearchParams()
-  const id = searchParams.get('id')
+  const searchParameters = useSearchParams()
+  const id = searchParameters.get('id')
 
   const [playlist, setPlaylist] = useState()
   const [tracksData, setTracksData] = useState()
@@ -23,7 +23,7 @@ const PlaylistPage = () => {
       const playlistData = await getPlaylistById(id)
       setPlaylist(playlistData)
       setTracksData(playlistData.tracks)
-      
+
       setLoading(false)
 
     }

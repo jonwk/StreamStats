@@ -1,4 +1,4 @@
-import getWrapper from "~/app/api/spotify/getWrapper";
+import getWrapper from '~/app/api/spotify/getWrapper'
 
 /**
  * Get Current User's Recently Played Tracks
@@ -9,22 +9,22 @@ import getWrapper from "~/app/api/spotify/getWrapper";
 
 const getRecentlyPlayed = async (limit = 50) => {
   const { items, ...recentlyPlayed } = await getWrapper({ urlEndpoint: `/me/player/recently-played?limit=${limit}` })
-  const processedTracks = items.reduce((acc, recentlyPlayedItem, index, array) => {
+  const processedTracks = items.reduce((accumulator, recentlyPlayedItem, index, array) => {
     const { track, ...rest } = recentlyPlayedItem
-    const prevTrack = index > 0 ? array[index - 1].track : null
-    const isConsecutive = prevTrack && prevTrack.id === track.id
+    const previousTrack = index > 0 ? array[index - 1].track : null
+    const isConsecutive = previousTrack && previousTrack.id === track.id
     if (isConsecutive) {
-      acc[acc.length - 1].track.playCount += 1
-      return acc
+      accumulator[accumulator.length - 1].track.playCount += 1
+      return accumulator
     } else {
-      acc.push({
+      accumulator.push({
         ...rest,
         track: {
           ...track,
           playCount: 1
         },
       })
-      return acc
+      return accumulator
     }
   }, [])
   return { ...recentlyPlayed, items: processedTracks }

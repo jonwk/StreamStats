@@ -9,7 +9,7 @@ import {
 } from '~/app/api/spotify'
 import { catchErrors } from '~/util'
 import useLogoutOnError from '~/hooks/useLogoutOnError'
-import {Profile} from '~/components/Pages'
+import { Profile } from '~/components/Pages'
 
 const ProfilePage = () => {
   const handleLogoutError = useLogoutOnError()
