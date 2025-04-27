@@ -1,6 +1,6 @@
 'use client'
 import styled from 'styled-components'
-import { signOut } from "next-auth/react";
+import { signOut } from 'next-auth/react'
 
 const StyledLogoutButton = styled.button`
   position: absolute;
@@ -20,7 +20,7 @@ const StyledLogoutButton = styled.button`
 
 const LogoutButton = () => {
   return (
-    <StyledLogoutButton onClick={() => signOut({callbackUrl: '/'})}>
+    <StyledLogoutButton onClick={() => signOut({ callbackUrl: '/' })}>
       Log Out
     </StyledLogoutButton>
   )

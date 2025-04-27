@@ -10,7 +10,7 @@ const SectionWrapper = ({ children, title, seeAllLink, breadcrumb, isDemo = fals
         <h2 className="section__heading">
           {breadcrumb && (
             <span className="section__breadcrumb">
-              <Link href={getLink("/profile", isDemo)}>Profile</Link>
+              <Link href={getLink('/profile', isDemo)}>Profile</Link>
             </span>
           )}
 

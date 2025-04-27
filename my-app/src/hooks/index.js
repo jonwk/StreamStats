@@ -1,1 +1,1 @@
-export {default as useLogoutOnError} from '~/hooks/useLogoutOnError'
+export { default as useLogoutOnError } from '~/hooks/useLogoutOnError'

@@ -12,7 +12,7 @@ const useLogoutOnError = () => {
   return async () => {
     const session = await getSession()
     if (!session) {
-      signOut({callbackUrl: '/'})
+      signOut({ callbackUrl: '/' })
       router.push('/')
     }
   }

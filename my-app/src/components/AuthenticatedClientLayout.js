@@ -1,8 +1,8 @@
 'use client'
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyles, theme } from '~/styles'
-import { LogoutButton, ScrollToTop } from "~/components"
-import { useSession } from "next-auth/react"
+import { LogoutButton, ScrollToTop } from '~/components'
+import { useSession } from 'next-auth/react'
 import { usePathname } from 'next/navigation'
 
 const AuthenticatedClientLayout = ({ children }) => {
