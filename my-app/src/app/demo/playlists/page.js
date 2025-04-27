@@ -11,7 +11,6 @@ const DemoPlaylists = () => {
       setIsLoading(true)
       try {
         const data = await import('~/app/demo/data/allPlaylists.json')
-        console.log(data.default) 
         setPlaylists(data.default)
       } catch (error) {
         console.error('Error loading demo data:', error)
