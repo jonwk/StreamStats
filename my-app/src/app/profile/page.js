@@ -7,7 +7,6 @@ import {
   getCurrentUserTopTracks,
   getRecentlyPlayed
 } from '~/app/api/spotify'
-import FadeIn from '~/animations/FadeIn'
 import { catchErrors } from '~/util'
 import useLogoutOnError from '~/hooks/useLogoutOnError'
 import {Profile} from '~/components/Pages'
