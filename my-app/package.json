@@ -1,0 +1,33 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "^15.3.1",
+    "eslint-plugin-unicorn": "^58.0.0",
+    "install": "^0.13.0",
+    "motion": "^12.9.2",
+    "next": "^15.3.1",
+    "next-auth": "^4.24.11",
+    "npm": "^11.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "styled-components": "^6.1.17"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9.25.1",
+    "@swc/core": "^1.11.21",
+    "@swc/plugin-styled-components": "^7.1.3",
+    "eslint": "^9.25.1",
+    "eslint-config-next": "15.3.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0"
+  }
+}

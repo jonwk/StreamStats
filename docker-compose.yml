@@ -1,21 +1,11 @@
 version: '3.8'
 services:
-  server:
-    build:
-      context: ./server
-      dockerfile: Dockerfile
-    ports:
-      - "8888:8888"
-    env_file:
-      - ./server/.env
-    volumes:
-      - ./server/src:/app/src
-  
-  client:
-    build:
-      context: ./client
-      dockerfile: Dockerfile
+  web:
+    container_name: web
     ports:
       - "3000:3000"
+    build: 
+      context: ./my-app
+      dockerfile: Dockerfile
     volumes:
-      - ./client:/app
+      - ./my-app/:/app/

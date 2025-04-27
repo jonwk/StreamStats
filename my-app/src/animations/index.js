@@ -1,0 +1,1 @@
+export { default as MotionFade } from '~/animations/MotionFade'

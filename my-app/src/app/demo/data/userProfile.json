@@ -1,0 +1,33 @@
+{
+  "country": "IN",
+  "display_name": "John Wesley",
+  "email": "johnkommala@gmail.com",
+  "explicit_content": {
+    "filter_enabled": false,
+    "filter_locked": false
+  },
+  "external_urls": {
+    "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+  },
+  "followers": {
+    "href": null,
+    "total": 21
+  },
+  "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+  "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+  "images": [
+    {
+      "height": 300,
+      "url": "https://i.scdn.co/image/ab6775700000ee8564f93a2819a46ad81d68525a",
+      "width": 300
+    },
+    {
+      "height": 64,
+      "url": "https://i.scdn.co/image/ab67757000003b8264f93a2819a46ad81d68525a",
+      "width": 64
+    }
+  ],
+  "product": "premium",
+  "type": "user",
+  "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+}

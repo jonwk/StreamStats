@@ -1,0 +1,3282 @@
+[
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0jMKjNMqHjKQsUDi4atZAO"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0jMKjNMqHjKQsUDi4atZAO",
+    "id": "0jMKjNMqHjKQsUDi4atZAO",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0236f72e16774f67f6a4df173dab67616d00001e029e16930796a07f1195002389ab67616d00001e02bd6595d3c6034e06618b99a2ab67616d00001e02d3d20397b97be403c4eaa6fa",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0236f72e16774f67f6a4df173dab67616d00001e029e16930796a07f1195002389ab67616d00001e02bd6595d3c6034e06618b99a2ab67616d00001e02d3d20397b97be403c4eaa6fa",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0236f72e16774f67f6a4df173dab67616d00001e029e16930796a07f1195002389ab67616d00001e02bd6595d3c6034e06618b99a2ab67616d00001e02d3d20397b97be403c4eaa6fa",
+        "width": 60
+      }
+    ],
+    "name": "Chill Japanese Songs",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAB8cE5sD39aZYaafRxj1xjmFCCwwb",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0jMKjNMqHjKQsUDi4atZAO/tracks",
+      "total": 6
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0jMKjNMqHjKQsUDi4atZAO"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2MDc1lt8EtA8uXmZXgClQE"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2MDc1lt8EtA8uXmZXgClQE",
+    "id": "2MDc1lt8EtA8uXmZXgClQE",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e020389027010b78a5e7dce426bab67616d00001e024e805200727de6c107de5b33ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02cab7ae4868e9f9ce6bdfdf43",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e020389027010b78a5e7dce426bab67616d00001e024e805200727de6c107de5b33ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02cab7ae4868e9f9ce6bdfdf43",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e020389027010b78a5e7dce426bab67616d00001e024e805200727de6c107de5b33ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02cab7ae4868e9f9ce6bdfdf43",
+        "width": 60
+      }
+    ],
+    "name": "Funeral",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACbyI8mzhUR5LCo3UQElbjAxJZ7Y2",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2MDc1lt8EtA8uXmZXgClQE/tracks",
+      "total": 7
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2MDc1lt8EtA8uXmZXgClQE"
+  },
+  {
+    "collaborative": false,
+    "description": "Never give up",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5V70NDcgFNS6t4lcyFHx87"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5V70NDcgFNS6t4lcyFHx87",
+    "id": "5V70NDcgFNS6t4lcyFHx87",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02335f4d574fe93c68dbf88733",
+        "width": null
+      }
+    ],
+    "name": "Reach For The Sky",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABlUE1a3EY03E5wsogfFM5WQbUW7M",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5V70NDcgFNS6t4lcyFHx87/tracks",
+      "total": 4
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5V70NDcgFNS6t4lcyFHx87"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/42UkpxHZzexqaG1T2Wf2yu"
+    },
+    "href": "https://api.spotify.com/v1/playlists/42UkpxHZzexqaG1T2Wf2yu",
+    "id": "42UkpxHZzexqaG1T2Wf2yu",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846c82f3aa2b3dde805171155b",
+        "width": null
+      }
+    ],
+    "name": "disney songs that slap harder than your mom last night",
+    "owner": {
+      "display_name": "phwebee <3",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/pscny"
+      },
+      "href": "https://api.spotify.com/v1/users/pscny",
+      "id": "pscny",
+      "type": "user",
+      "uri": "spotify:user:pscny"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAASep2ee/U7Z31p7su0NnYHE97cn9/",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/42UkpxHZzexqaG1T2Wf2yu/tracks",
+      "total": 41
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:42UkpxHZzexqaG1T2Wf2yu"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2puw7BQzaZprXU4xA3m1v9"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2puw7BQzaZprXU4xA3m1v9",
+    "id": "2puw7BQzaZprXU4xA3m1v9",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848e17697f7ce1b967c08c82cd",
+        "width": null
+      }
+    ],
+    "name": "songs that feel like blood by the middle east ",
+    "owner": {
+      "display_name": "Hailey",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/rzzdm3ks8xehx04wcbwkhwgk8"
+      },
+      "href": "https://api.spotify.com/v1/users/rzzdm3ks8xehx04wcbwkhwgk8",
+      "id": "rzzdm3ks8xehx04wcbwkhwgk8",
+      "type": "user",
+      "uri": "spotify:user:rzzdm3ks8xehx04wcbwkhwgk8"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAATdoh+fPuDGXxZW9h21sivo28fiS4",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2puw7BQzaZprXU4xA3m1v9/tracks",
+      "total": 53
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2puw7BQzaZprXU4xA3m1v9"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4ArHJa6XdTnTYiIhBCVuYb"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4ArHJa6XdTnTYiIhBCVuYb",
+    "id": "4ArHJa6XdTnTYiIhBCVuYb",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c0fe36df17e4dc34e3b6339e",
+        "width": null
+      }
+    ],
+    "name": "Lost & Sad",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABNnEgzkdRo1cMDZ7rsQg1nU4kKPX",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4ArHJa6XdTnTYiIhBCVuYb/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4ArHJa6XdTnTYiIhBCVuYb"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7DjP1SFzC2dxGBGynAUiNu"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7DjP1SFzC2dxGBGynAUiNu",
+    "id": "7DjP1SFzC2dxGBGynAUiNu",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846b00a5dd17aa5c4e6be69db4",
+        "width": null
+      }
+    ],
+    "name": "Eddie Munson Mix",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAH5ju7Upu5AZx8/Exaxn1St1IjBlZ",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7DjP1SFzC2dxGBGynAUiNu/tracks",
+      "total": 24
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7DjP1SFzC2dxGBGynAUiNu"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2nbupaiHGI2A9q1P1ZM8Ru"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2nbupaiHGI2A9q1P1ZM8Ru",
+    "id": "2nbupaiHGI2A9q1P1ZM8Ru",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02932bb58934ecb1d35baa5fe8",
+        "width": null
+      }
+    ],
+    "name": "Quiet Reading",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAA8FccZGFTD0b4+VMeaNrxqWygIdk",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2nbupaiHGI2A9q1P1ZM8Ru/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2nbupaiHGI2A9q1P1ZM8Ru"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5CCN61aeXCHZ7JcAh8JXhH"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5CCN61aeXCHZ7JcAh8JXhH",
+    "id": "5CCN61aeXCHZ7JcAh8JXhH",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0266abaacb7640f8511bd7ec0aab67616d00001e028e72684e54cd3f2d333264a3ab67616d00001e02cdd39bd0b8dcff3df94afba8ab67616d00001e02d73357f307a153b645c3d2c4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0266abaacb7640f8511bd7ec0aab67616d00001e028e72684e54cd3f2d333264a3ab67616d00001e02cdd39bd0b8dcff3df94afba8ab67616d00001e02d73357f307a153b645c3d2c4",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0266abaacb7640f8511bd7ec0aab67616d00001e028e72684e54cd3f2d333264a3ab67616d00001e02cdd39bd0b8dcff3df94afba8ab67616d00001e02d73357f307a153b645c3d2c4",
+        "width": 60
+      }
+    ],
+    "name": "Darren Filipino R&B",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACEJxs/rg3tKgxWRqs/dehWYrCLf9",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5CCN61aeXCHZ7JcAh8JXhH/tracks",
+      "total": 7
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5CCN61aeXCHZ7JcAh8JXhH"
+  },
+  {
+    "collaborative": false,
+    "description": "For all of you Eddie Munson simps or lovers. You got good taste in men. Enjoy sweethearts!",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6mzgM9sPk6l0PSqd6iuXfi"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6mzgM9sPk6l0PSqd6iuXfi",
+    "id": "6mzgM9sPk6l0PSqd6iuXfi",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84adce4e7f3dc16d58c2e5800a",
+        "width": null
+      }
+    ],
+    "name": "Eddie Munson playlist",
+    "owner": {
+      "display_name": "Remy:)",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31fusxpyso5eb2hkmjdfh3hpwtvy"
+      },
+      "href": "https://api.spotify.com/v1/users/31fusxpyso5eb2hkmjdfh3hpwtvy",
+      "id": "31fusxpyso5eb2hkmjdfh3hpwtvy",
+      "type": "user",
+      "uri": "spotify:user:31fusxpyso5eb2hkmjdfh3hpwtvy"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAey71tr5FpS4vn9mgcmhB/k+OTQBO",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6mzgM9sPk6l0PSqd6iuXfi/tracks",
+      "total": 99
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6mzgM9sPk6l0PSqd6iuXfi"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0P2CqUrWwBAl5yIYONVTes"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0P2CqUrWwBAl5yIYONVTes",
+    "id": "0P2CqUrWwBAl5yIYONVTes",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e02b815265c56ecfa5136a4015dab67616d00001e02da8d92affd796f7e20af7375ab67616d00001e02db1d1cdc927a07825a2ed244",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e02b815265c56ecfa5136a4015dab67616d00001e02da8d92affd796f7e20af7375ab67616d00001e02db1d1cdc927a07825a2ed244",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e02b815265c56ecfa5136a4015dab67616d00001e02da8d92affd796f7e20af7375ab67616d00001e02db1d1cdc927a07825a2ed244",
+        "width": 60
+      }
+    ],
+    "name": "wedding ",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACN5cR1rWg6ec3n+Qp0q46t3084O7",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0P2CqUrWwBAl5yIYONVTes/tracks",
+      "total": 7
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0P2CqUrWwBAl5yIYONVTes"
+  },
+  {
+    "collaborative": false,
+    "description": "There is a conspiracy that the Radiohead albums Ok Computer and In Rainbows are complimentary and sound like an entire, cohesive, secret album when interlaced like in this playlist. Listen to with a 10 second crossfade for maximum effect.",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5xzYQHOZJy7ojorOaWn5qZ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5xzYQHOZJy7ojorOaWn5qZ",
+    "id": "5xzYQHOZJy7ojorOaWn5qZ",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a34c3ed4932171f5bce1e0cb",
+        "width": null
+      }
+    ],
+    "name": "0110 - Radiohead Album Conspiracy",
+    "owner": {
+      "display_name": "Sean Lissner",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/seanlissner"
+      },
+      "href": "https://api.spotify.com/v1/users/seanlissner",
+      "id": "seanlissner",
+      "type": "user",
+      "uri": "spotify:user:seanlissner"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAG84ZoSP3MuS/1qNll+g6e9I5bHD/",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5xzYQHOZJy7ojorOaWn5qZ/tracks",
+      "total": 22
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5xzYQHOZJy7ojorOaWn5qZ"
+  },
+  {
+    "collaborative": false,
+    "description": "bedtime prep",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1P7FxpXnsGm5fj7i5wdSHi"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1P7FxpXnsGm5fj7i5wdSHi",
+    "id": "1P7FxpXnsGm5fj7i5wdSHi",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a08704b12859153c6a4a68dc",
+        "width": null
+      }
+    ],
+    "name": "wind down",
+    "owner": {
+      "display_name": "DesLee",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/xo1r9rmczrehmzkptpd82zp11"
+      },
+      "href": "https://api.spotify.com/v1/users/xo1r9rmczrehmzkptpd82zp11",
+      "id": "xo1r9rmczrehmzkptpd82zp11",
+      "type": "user",
+      "uri": "spotify:user:xo1r9rmczrehmzkptpd82zp11"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAASGJg8+2o339SjAanF4g1AHenNLww",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1P7FxpXnsGm5fj7i5wdSHi/tracks",
+      "total": 67
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1P7FxpXnsGm5fj7i5wdSHi"
+  },
+  {
+    "collaborative": false,
+    "description": "i&#x27;m a sucker for love what can i say",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4dqqP1MRmDemgwitAb9S74"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4dqqP1MRmDemgwitAb9S74",
+    "id": "4dqqP1MRmDemgwitAb9S74",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a060022a4ea5659313b9794d",
+        "width": null
+      }
+    ],
+    "name": "what it feels like to be in an indie rom com",
+    "owner": {
+      "display_name": "Kelsie x The Yellow Button",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/herzogk12"
+      },
+      "href": "https://api.spotify.com/v1/users/herzogk12",
+      "id": "herzogk12",
+      "type": "user",
+      "uri": "spotify:user:herzogk12"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAjoDs8dR2lZiyJBnm2gCRyDV4Aoe9",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4dqqP1MRmDemgwitAb9S74/tracks",
+      "total": 81
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4dqqP1MRmDemgwitAb9S74"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5PoCs5zH2CjeiCk7pqJLtk"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5PoCs5zH2CjeiCk7pqJLtk",
+    "id": "5PoCs5zH2CjeiCk7pqJLtk",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02051d9cc7db941e7ba051b9afab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e0290b8a540137ee2a718a369f9ab67616d00001e029a98b401ccc8da6a33302535",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02051d9cc7db941e7ba051b9afab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e0290b8a540137ee2a718a369f9ab67616d00001e029a98b401ccc8da6a33302535",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02051d9cc7db941e7ba051b9afab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e0290b8a540137ee2a718a369f9ab67616d00001e029a98b401ccc8da6a33302535",
+        "width": 60
+      }
+    ],
+    "name": "New sleep 2025",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAHsjeY4jRB0cL+i8bZK4rJiqGcL8r",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5PoCs5zH2CjeiCk7pqJLtk/tracks",
+      "total": 16
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5PoCs5zH2CjeiCk7pqJLtk"
+  },
+  {
+    "collaborative": false,
+    "description": "Hear raw, unfiltered tunes of India’s best singer-songwriters! #IndianIndie #SingerSongwriters",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4ONRBLq4veBAgaxTbj5J9k"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4ONRBLq4veBAgaxTbj5J9k",
+    "id": "4ONRBLq4veBAgaxTbj5J9k",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846ac02b0350976c6d5ff10344",
+        "width": null
+      }
+    ],
+    "name": "Heartbreak Hindi",
+    "owner": {
+      "display_name": "Raghav Meattle",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/cepiujwnd2kmydwh4s60rxp2z"
+      },
+      "href": "https://api.spotify.com/v1/users/cepiujwnd2kmydwh4s60rxp2z",
+      "id": "cepiujwnd2kmydwh4s60rxp2z",
+      "type": "user",
+      "uri": "spotify:user:cepiujwnd2kmydwh4s60rxp2z"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAE7RlWrwLw0hY525zxjXCdARzn2BJD",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4ONRBLq4veBAgaxTbj5J9k/tracks",
+      "total": 187
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4ONRBLq4veBAgaxTbj5J9k"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3BLIkMNsCJjML12WaVhia7"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3BLIkMNsCJjML12WaVhia7",
+    "id": "3BLIkMNsCJjML12WaVhia7",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02c13ddb7d3862adb2c465f342ab67616d00001e02dfd1ddf5b8431d6fc5210d6cab67616d00001e02e2163686133112a2757f0ee9ab67616d00001e02edd095056650e649804eb67b",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02c13ddb7d3862adb2c465f342ab67616d00001e02dfd1ddf5b8431d6fc5210d6cab67616d00001e02e2163686133112a2757f0ee9ab67616d00001e02edd095056650e649804eb67b",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02c13ddb7d3862adb2c465f342ab67616d00001e02dfd1ddf5b8431d6fc5210d6cab67616d00001e02e2163686133112a2757f0ee9ab67616d00001e02edd095056650e649804eb67b",
+        "width": 60
+      }
+    ],
+    "name": "Telugu edits stories",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAB3NFcC+RUXiXCGnH6MdbOmnkpOtv",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3BLIkMNsCJjML12WaVhia7/tracks",
+      "total": 6
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3BLIkMNsCJjML12WaVhia7"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1nAFuLv3VOaQ85D7BlVJj5"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1nAFuLv3VOaQ85D7BlVJj5",
+    "id": "1nAFuLv3VOaQ85D7BlVJj5",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e13e129acd5e9ef31fb3f5c2",
+        "width": null
+      }
+    ],
+    "name": "bollywood feel good songs",
+    "owner": {
+      "display_name": "Savani",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/32uiijzi8ggelwoxl5fupbqq1"
+      },
+      "href": "https://api.spotify.com/v1/users/32uiijzi8ggelwoxl5fupbqq1",
+      "id": "32uiijzi8ggelwoxl5fupbqq1",
+      "type": "user",
+      "uri": "spotify:user:32uiijzi8ggelwoxl5fupbqq1"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAABYAOk9cdv9oZhP4Iqt89uXv/Q0yCp",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1nAFuLv3VOaQ85D7BlVJj5/tracks",
+      "total": 288
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1nAFuLv3VOaQ85D7BlVJj5"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/64LHykvIaNhpnaFEdcvsJE"
+    },
+    "href": "https://api.spotify.com/v1/playlists/64LHykvIaNhpnaFEdcvsJE",
+    "id": "64LHykvIaNhpnaFEdcvsJE",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02705079df9a25a28b452c1fc9",
+        "width": null
+      }
+    ],
+    "name": "Western vibes",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAAuSNU9WkvFp9Srq7qmZnJ7+IK3dr",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/64LHykvIaNhpnaFEdcvsJE/tracks",
+      "total": 1
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:64LHykvIaNhpnaFEdcvsJE"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7aDzN2ViGSmLTnqq437wIf"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7aDzN2ViGSmLTnqq437wIf",
+    "id": "7aDzN2ViGSmLTnqq437wIf",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0211f5f38824cdfb0a69c7fa07ab67616d00001e02475bc056ba4b3bdd74277efdab67616d00001e0281cb8561b07492a1a342fb5eab67616d00001e02fc68119636179eb966102594",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0211f5f38824cdfb0a69c7fa07ab67616d00001e02475bc056ba4b3bdd74277efdab67616d00001e0281cb8561b07492a1a342fb5eab67616d00001e02fc68119636179eb966102594",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0211f5f38824cdfb0a69c7fa07ab67616d00001e02475bc056ba4b3bdd74277efdab67616d00001e0281cb8561b07492a1a342fb5eab67616d00001e02fc68119636179eb966102594",
+        "width": 60
+      }
+    ],
+    "name": "Cinematography",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAADr3pcMJaSKUApAVgJUQTj4xb+2OI",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7aDzN2ViGSmLTnqq437wIf/tracks",
+      "total": 8
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7aDzN2ViGSmLTnqq437wIf"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0jMKjNMqHjKQsUDi4atZAO"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0jMKjNMqHjKQsUDi4atZAO",
+    "id": "0jMKjNMqHjKQsUDi4atZAO",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0236f72e16774f67f6a4df173dab67616d00001e029e16930796a07f1195002389ab67616d00001e02bd6595d3c6034e06618b99a2ab67616d00001e02d3d20397b97be403c4eaa6fa",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0236f72e16774f67f6a4df173dab67616d00001e029e16930796a07f1195002389ab67616d00001e02bd6595d3c6034e06618b99a2ab67616d00001e02d3d20397b97be403c4eaa6fa",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0236f72e16774f67f6a4df173dab67616d00001e029e16930796a07f1195002389ab67616d00001e02bd6595d3c6034e06618b99a2ab67616d00001e02d3d20397b97be403c4eaa6fa",
+        "width": 60
+      }
+    ],
+    "name": "Chill Japanese Songs",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAB8cE5sD39aZYaafRxj1xjmFCCwwb",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0jMKjNMqHjKQsUDi4atZAO/tracks",
+      "total": 6
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0jMKjNMqHjKQsUDi4atZAO"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2MDc1lt8EtA8uXmZXgClQE"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2MDc1lt8EtA8uXmZXgClQE",
+    "id": "2MDc1lt8EtA8uXmZXgClQE",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e020389027010b78a5e7dce426bab67616d00001e024e805200727de6c107de5b33ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02cab7ae4868e9f9ce6bdfdf43",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e020389027010b78a5e7dce426bab67616d00001e024e805200727de6c107de5b33ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02cab7ae4868e9f9ce6bdfdf43",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e020389027010b78a5e7dce426bab67616d00001e024e805200727de6c107de5b33ab67616d00001e02a32f2ae4dade83e0d7a294f4ab67616d00001e02cab7ae4868e9f9ce6bdfdf43",
+        "width": 60
+      }
+    ],
+    "name": "Funeral",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACbyI8mzhUR5LCo3UQElbjAxJZ7Y2",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2MDc1lt8EtA8uXmZXgClQE/tracks",
+      "total": 7
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2MDc1lt8EtA8uXmZXgClQE"
+  },
+  {
+    "collaborative": false,
+    "description": "Never give up",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5V70NDcgFNS6t4lcyFHx87"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5V70NDcgFNS6t4lcyFHx87",
+    "id": "5V70NDcgFNS6t4lcyFHx87",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02335f4d574fe93c68dbf88733",
+        "width": null
+      }
+    ],
+    "name": "Reach For The Sky",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABlUE1a3EY03E5wsogfFM5WQbUW7M",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5V70NDcgFNS6t4lcyFHx87/tracks",
+      "total": 4
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5V70NDcgFNS6t4lcyFHx87"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/42UkpxHZzexqaG1T2Wf2yu"
+    },
+    "href": "https://api.spotify.com/v1/playlists/42UkpxHZzexqaG1T2Wf2yu",
+    "id": "42UkpxHZzexqaG1T2Wf2yu",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846c82f3aa2b3dde805171155b",
+        "width": null
+      }
+    ],
+    "name": "disney songs that slap harder than your mom last night",
+    "owner": {
+      "display_name": "phwebee <3",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/pscny"
+      },
+      "href": "https://api.spotify.com/v1/users/pscny",
+      "id": "pscny",
+      "type": "user",
+      "uri": "spotify:user:pscny"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAASep2ee/U7Z31p7su0NnYHE97cn9/",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/42UkpxHZzexqaG1T2Wf2yu/tracks",
+      "total": 41
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:42UkpxHZzexqaG1T2Wf2yu"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2puw7BQzaZprXU4xA3m1v9"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2puw7BQzaZprXU4xA3m1v9",
+    "id": "2puw7BQzaZprXU4xA3m1v9",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848e17697f7ce1b967c08c82cd",
+        "width": null
+      }
+    ],
+    "name": "songs that feel like blood by the middle east ",
+    "owner": {
+      "display_name": "Hailey",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/rzzdm3ks8xehx04wcbwkhwgk8"
+      },
+      "href": "https://api.spotify.com/v1/users/rzzdm3ks8xehx04wcbwkhwgk8",
+      "id": "rzzdm3ks8xehx04wcbwkhwgk8",
+      "type": "user",
+      "uri": "spotify:user:rzzdm3ks8xehx04wcbwkhwgk8"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAATdoh+fPuDGXxZW9h21sivo28fiS4",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2puw7BQzaZprXU4xA3m1v9/tracks",
+      "total": 53
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2puw7BQzaZprXU4xA3m1v9"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4ArHJa6XdTnTYiIhBCVuYb"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4ArHJa6XdTnTYiIhBCVuYb",
+    "id": "4ArHJa6XdTnTYiIhBCVuYb",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02c0fe36df17e4dc34e3b6339e",
+        "width": null
+      }
+    ],
+    "name": "Lost & Sad",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABNnEgzkdRo1cMDZ7rsQg1nU4kKPX",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4ArHJa6XdTnTYiIhBCVuYb/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4ArHJa6XdTnTYiIhBCVuYb"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7DjP1SFzC2dxGBGynAUiNu"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7DjP1SFzC2dxGBGynAUiNu",
+    "id": "7DjP1SFzC2dxGBGynAUiNu",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846b00a5dd17aa5c4e6be69db4",
+        "width": null
+      }
+    ],
+    "name": "Eddie Munson Mix",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAH5ju7Upu5AZx8/Exaxn1St1IjBlZ",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7DjP1SFzC2dxGBGynAUiNu/tracks",
+      "total": 24
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7DjP1SFzC2dxGBGynAUiNu"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2nbupaiHGI2A9q1P1ZM8Ru"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2nbupaiHGI2A9q1P1ZM8Ru",
+    "id": "2nbupaiHGI2A9q1P1ZM8Ru",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02932bb58934ecb1d35baa5fe8",
+        "width": null
+      }
+    ],
+    "name": "Quiet Reading",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAA8FccZGFTD0b4+VMeaNrxqWygIdk",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2nbupaiHGI2A9q1P1ZM8Ru/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2nbupaiHGI2A9q1P1ZM8Ru"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5CCN61aeXCHZ7JcAh8JXhH"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5CCN61aeXCHZ7JcAh8JXhH",
+    "id": "5CCN61aeXCHZ7JcAh8JXhH",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0266abaacb7640f8511bd7ec0aab67616d00001e028e72684e54cd3f2d333264a3ab67616d00001e02cdd39bd0b8dcff3df94afba8ab67616d00001e02d73357f307a153b645c3d2c4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0266abaacb7640f8511bd7ec0aab67616d00001e028e72684e54cd3f2d333264a3ab67616d00001e02cdd39bd0b8dcff3df94afba8ab67616d00001e02d73357f307a153b645c3d2c4",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0266abaacb7640f8511bd7ec0aab67616d00001e028e72684e54cd3f2d333264a3ab67616d00001e02cdd39bd0b8dcff3df94afba8ab67616d00001e02d73357f307a153b645c3d2c4",
+        "width": 60
+      }
+    ],
+    "name": "Darren Filipino R&B",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACEJxs/rg3tKgxWRqs/dehWYrCLf9",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5CCN61aeXCHZ7JcAh8JXhH/tracks",
+      "total": 7
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5CCN61aeXCHZ7JcAh8JXhH"
+  },
+  {
+    "collaborative": false,
+    "description": "For all of you Eddie Munson simps or lovers. You got good taste in men. Enjoy sweethearts!",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6mzgM9sPk6l0PSqd6iuXfi"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6mzgM9sPk6l0PSqd6iuXfi",
+    "id": "6mzgM9sPk6l0PSqd6iuXfi",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84adce4e7f3dc16d58c2e5800a",
+        "width": null
+      }
+    ],
+    "name": "Eddie Munson playlist",
+    "owner": {
+      "display_name": "Remy:)",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31fusxpyso5eb2hkmjdfh3hpwtvy"
+      },
+      "href": "https://api.spotify.com/v1/users/31fusxpyso5eb2hkmjdfh3hpwtvy",
+      "id": "31fusxpyso5eb2hkmjdfh3hpwtvy",
+      "type": "user",
+      "uri": "spotify:user:31fusxpyso5eb2hkmjdfh3hpwtvy"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAey71tr5FpS4vn9mgcmhB/k+OTQBO",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6mzgM9sPk6l0PSqd6iuXfi/tracks",
+      "total": 99
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6mzgM9sPk6l0PSqd6iuXfi"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0P2CqUrWwBAl5yIYONVTes"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0P2CqUrWwBAl5yIYONVTes",
+    "id": "0P2CqUrWwBAl5yIYONVTes",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e02b815265c56ecfa5136a4015dab67616d00001e02da8d92affd796f7e20af7375ab67616d00001e02db1d1cdc927a07825a2ed244",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e02b815265c56ecfa5136a4015dab67616d00001e02da8d92affd796f7e20af7375ab67616d00001e02db1d1cdc927a07825a2ed244",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e02b815265c56ecfa5136a4015dab67616d00001e02da8d92affd796f7e20af7375ab67616d00001e02db1d1cdc927a07825a2ed244",
+        "width": 60
+      }
+    ],
+    "name": "wedding ",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACN5cR1rWg6ec3n+Qp0q46t3084O7",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0P2CqUrWwBAl5yIYONVTes/tracks",
+      "total": 7
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0P2CqUrWwBAl5yIYONVTes"
+  },
+  {
+    "collaborative": false,
+    "description": "There is a conspiracy that the Radiohead albums Ok Computer and In Rainbows are complimentary and sound like an entire, cohesive, secret album when interlaced like in this playlist. Listen to with a 10 second crossfade for maximum effect.",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5xzYQHOZJy7ojorOaWn5qZ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5xzYQHOZJy7ojorOaWn5qZ",
+    "id": "5xzYQHOZJy7ojorOaWn5qZ",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a34c3ed4932171f5bce1e0cb",
+        "width": null
+      }
+    ],
+    "name": "0110 - Radiohead Album Conspiracy",
+    "owner": {
+      "display_name": "Sean Lissner",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/seanlissner"
+      },
+      "href": "https://api.spotify.com/v1/users/seanlissner",
+      "id": "seanlissner",
+      "type": "user",
+      "uri": "spotify:user:seanlissner"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAG84ZoSP3MuS/1qNll+g6e9I5bHD/",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5xzYQHOZJy7ojorOaWn5qZ/tracks",
+      "total": 22
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5xzYQHOZJy7ojorOaWn5qZ"
+  },
+  {
+    "collaborative": false,
+    "description": "bedtime prep",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1P7FxpXnsGm5fj7i5wdSHi"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1P7FxpXnsGm5fj7i5wdSHi",
+    "id": "1P7FxpXnsGm5fj7i5wdSHi",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a08704b12859153c6a4a68dc",
+        "width": null
+      }
+    ],
+    "name": "wind down",
+    "owner": {
+      "display_name": "DesLee",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/xo1r9rmczrehmzkptpd82zp11"
+      },
+      "href": "https://api.spotify.com/v1/users/xo1r9rmczrehmzkptpd82zp11",
+      "id": "xo1r9rmczrehmzkptpd82zp11",
+      "type": "user",
+      "uri": "spotify:user:xo1r9rmczrehmzkptpd82zp11"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAASGJg8+2o339SjAanF4g1AHenNLww",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1P7FxpXnsGm5fj7i5wdSHi/tracks",
+      "total": 67
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1P7FxpXnsGm5fj7i5wdSHi"
+  },
+  {
+    "collaborative": false,
+    "description": "i&#x27;m a sucker for love what can i say",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4dqqP1MRmDemgwitAb9S74"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4dqqP1MRmDemgwitAb9S74",
+    "id": "4dqqP1MRmDemgwitAb9S74",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a060022a4ea5659313b9794d",
+        "width": null
+      }
+    ],
+    "name": "what it feels like to be in an indie rom com",
+    "owner": {
+      "display_name": "Kelsie x The Yellow Button",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/herzogk12"
+      },
+      "href": "https://api.spotify.com/v1/users/herzogk12",
+      "id": "herzogk12",
+      "type": "user",
+      "uri": "spotify:user:herzogk12"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAjoDs8dR2lZiyJBnm2gCRyDV4Aoe9",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4dqqP1MRmDemgwitAb9S74/tracks",
+      "total": 81
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4dqqP1MRmDemgwitAb9S74"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5PoCs5zH2CjeiCk7pqJLtk"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5PoCs5zH2CjeiCk7pqJLtk",
+    "id": "5PoCs5zH2CjeiCk7pqJLtk",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02051d9cc7db941e7ba051b9afab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e0290b8a540137ee2a718a369f9ab67616d00001e029a98b401ccc8da6a33302535",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02051d9cc7db941e7ba051b9afab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e0290b8a540137ee2a718a369f9ab67616d00001e029a98b401ccc8da6a33302535",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02051d9cc7db941e7ba051b9afab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e0290b8a540137ee2a718a369f9ab67616d00001e029a98b401ccc8da6a33302535",
+        "width": 60
+      }
+    ],
+    "name": "New sleep 2025",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAHsjeY4jRB0cL+i8bZK4rJiqGcL8r",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5PoCs5zH2CjeiCk7pqJLtk/tracks",
+      "total": 16
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5PoCs5zH2CjeiCk7pqJLtk"
+  },
+  {
+    "collaborative": false,
+    "description": "Hear raw, unfiltered tunes of India’s best singer-songwriters! #IndianIndie #SingerSongwriters",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4ONRBLq4veBAgaxTbj5J9k"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4ONRBLq4veBAgaxTbj5J9k",
+    "id": "4ONRBLq4veBAgaxTbj5J9k",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846ac02b0350976c6d5ff10344",
+        "width": null
+      }
+    ],
+    "name": "Heartbreak Hindi",
+    "owner": {
+      "display_name": "Raghav Meattle",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/cepiujwnd2kmydwh4s60rxp2z"
+      },
+      "href": "https://api.spotify.com/v1/users/cepiujwnd2kmydwh4s60rxp2z",
+      "id": "cepiujwnd2kmydwh4s60rxp2z",
+      "type": "user",
+      "uri": "spotify:user:cepiujwnd2kmydwh4s60rxp2z"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAE7RlWrwLw0hY525zxjXCdARzn2BJD",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4ONRBLq4veBAgaxTbj5J9k/tracks",
+      "total": 187
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4ONRBLq4veBAgaxTbj5J9k"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3BLIkMNsCJjML12WaVhia7"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3BLIkMNsCJjML12WaVhia7",
+    "id": "3BLIkMNsCJjML12WaVhia7",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02c13ddb7d3862adb2c465f342ab67616d00001e02dfd1ddf5b8431d6fc5210d6cab67616d00001e02e2163686133112a2757f0ee9ab67616d00001e02edd095056650e649804eb67b",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02c13ddb7d3862adb2c465f342ab67616d00001e02dfd1ddf5b8431d6fc5210d6cab67616d00001e02e2163686133112a2757f0ee9ab67616d00001e02edd095056650e649804eb67b",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02c13ddb7d3862adb2c465f342ab67616d00001e02dfd1ddf5b8431d6fc5210d6cab67616d00001e02e2163686133112a2757f0ee9ab67616d00001e02edd095056650e649804eb67b",
+        "width": 60
+      }
+    ],
+    "name": "Telugu edits stories",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAB3NFcC+RUXiXCGnH6MdbOmnkpOtv",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3BLIkMNsCJjML12WaVhia7/tracks",
+      "total": 6
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3BLIkMNsCJjML12WaVhia7"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1nAFuLv3VOaQ85D7BlVJj5"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1nAFuLv3VOaQ85D7BlVJj5",
+    "id": "1nAFuLv3VOaQ85D7BlVJj5",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84e13e129acd5e9ef31fb3f5c2",
+        "width": null
+      }
+    ],
+    "name": "bollywood feel good songs",
+    "owner": {
+      "display_name": "Savani",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/32uiijzi8ggelwoxl5fupbqq1"
+      },
+      "href": "https://api.spotify.com/v1/users/32uiijzi8ggelwoxl5fupbqq1",
+      "id": "32uiijzi8ggelwoxl5fupbqq1",
+      "type": "user",
+      "uri": "spotify:user:32uiijzi8ggelwoxl5fupbqq1"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAABYAOk9cdv9oZhP4Iqt89uXv/Q0yCp",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1nAFuLv3VOaQ85D7BlVJj5/tracks",
+      "total": 288
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1nAFuLv3VOaQ85D7BlVJj5"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/64LHykvIaNhpnaFEdcvsJE"
+    },
+    "href": "https://api.spotify.com/v1/playlists/64LHykvIaNhpnaFEdcvsJE",
+    "id": "64LHykvIaNhpnaFEdcvsJE",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02705079df9a25a28b452c1fc9",
+        "width": null
+      }
+    ],
+    "name": "Western vibes",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAAuSNU9WkvFp9Srq7qmZnJ7+IK3dr",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/64LHykvIaNhpnaFEdcvsJE/tracks",
+      "total": 1
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:64LHykvIaNhpnaFEdcvsJE"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7aDzN2ViGSmLTnqq437wIf"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7aDzN2ViGSmLTnqq437wIf",
+    "id": "7aDzN2ViGSmLTnqq437wIf",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0211f5f38824cdfb0a69c7fa07ab67616d00001e02475bc056ba4b3bdd74277efdab67616d00001e0281cb8561b07492a1a342fb5eab67616d00001e02fc68119636179eb966102594",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0211f5f38824cdfb0a69c7fa07ab67616d00001e02475bc056ba4b3bdd74277efdab67616d00001e0281cb8561b07492a1a342fb5eab67616d00001e02fc68119636179eb966102594",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0211f5f38824cdfb0a69c7fa07ab67616d00001e02475bc056ba4b3bdd74277efdab67616d00001e0281cb8561b07492a1a342fb5eab67616d00001e02fc68119636179eb966102594",
+        "width": 60
+      }
+    ],
+    "name": "Cinematography",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAADr3pcMJaSKUApAVgJUQTj4xb+2OI",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7aDzN2ViGSmLTnqq437wIf/tracks",
+      "total": 8
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7aDzN2ViGSmLTnqq437wIf"
+  },
+  {
+    "collaborative": false,
+    "description": "The best indie and alternative rock and alt pop songs for you.",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1HR1tSif7WFmP7IEzSYKii"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1HR1tSif7WFmP7IEzSYKii",
+    "id": "1HR1tSif7WFmP7IEzSYKii",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bda4c5a5d98a51cccb563781",
+        "width": null
+      }
+    ],
+    "name": "Indie Rock Pops 🎶",
+    "owner": {
+      "display_name": "Musicforyou",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31zrylwz472idlcj2tbawvakhytu"
+      },
+      "href": "https://api.spotify.com/v1/users/31zrylwz472idlcj2tbawvakhytu",
+      "id": "31zrylwz472idlcj2tbawvakhytu",
+      "type": "user",
+      "uri": "spotify:user:31zrylwz472idlcj2tbawvakhytu"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAB1KQCbDeN0EcrXHby+MDeWpp8Lpqq",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1HR1tSif7WFmP7IEzSYKii/tracks",
+      "total": 88
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1HR1tSif7WFmP7IEzSYKii"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4NyAMoNSraxTxtnjH7jl3i"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4NyAMoNSraxTxtnjH7jl3i",
+    "id": "4NyAMoNSraxTxtnjH7jl3i",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e021336b31b6a1799f0de5807acab67616d00001e0263fa4751355b66f236943275ab67616d00001e029b0d8dc07c6d21bb337b78b4ab67616d00001e02be44a0f283a6c43c04c53d2d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e021336b31b6a1799f0de5807acab67616d00001e0263fa4751355b66f236943275ab67616d00001e029b0d8dc07c6d21bb337b78b4ab67616d00001e02be44a0f283a6c43c04c53d2d",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e021336b31b6a1799f0de5807acab67616d00001e0263fa4751355b66f236943275ab67616d00001e029b0d8dc07c6d21bb337b78b4ab67616d00001e02be44a0f283a6c43c04c53d2d",
+        "width": 60
+      }
+    ],
+    "name": "Hyyped Up",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAEqwWw8AbWi0BZ7qcdEzyvjGWfDAG",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4NyAMoNSraxTxtnjH7jl3i/tracks",
+      "total": 17
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4NyAMoNSraxTxtnjH7jl3i"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3AZSpL20czpaqLgAo9EWB4"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3AZSpL20czpaqLgAo9EWB4",
+    "id": "3AZSpL20czpaqLgAo9EWB4",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f8f636b6478d4ba9bd85e339",
+        "width": null
+      }
+    ],
+    "name": "Punjabi",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAA+0HJnjPTJgSNb4Hb7vYTOCFlMl+",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3AZSpL20czpaqLgAo9EWB4/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3AZSpL20czpaqLgAo9EWB4"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6yAu5aj4RwUoICGWxaJW5v"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6yAu5aj4RwUoICGWxaJW5v",
+    "id": "6yAu5aj4RwUoICGWxaJW5v",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0284cf2b5ab56c404729090b4eab67616d00001e028c1fadcc997a65384f34d694ab67616d00001e02b9000413b688d298a7ce999eab67616d00001e02dc15c262235990232f3a030f",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0284cf2b5ab56c404729090b4eab67616d00001e028c1fadcc997a65384f34d694ab67616d00001e02b9000413b688d298a7ce999eab67616d00001e02dc15c262235990232f3a030f",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0284cf2b5ab56c404729090b4eab67616d00001e028c1fadcc997a65384f34d694ab67616d00001e02b9000413b688d298a7ce999eab67616d00001e02dc15c262235990232f3a030f",
+        "width": 60
+      }
+    ],
+    "name": "Carplay",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAADSXl6RDij3n/64LdR+06+HUELlea",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6yAu5aj4RwUoICGWxaJW5v/tracks",
+      "total": 9
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6yAu5aj4RwUoICGWxaJW5v"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5d9arCrei0ygJbJy9pF3fK"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5d9arCrei0ygJbJy9pF3fK",
+    "id": "5d9arCrei0ygJbJy9pF3fK",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0267d0cba50eae9026b8958755ab67616d00001e02e85259a1cae29a8d91f2093dab67616d00001e02f3eaae22e1c6b26400073c05ab67616d00001e02f6a713be4f418307ab7ffaf4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0267d0cba50eae9026b8958755ab67616d00001e02e85259a1cae29a8d91f2093dab67616d00001e02f3eaae22e1c6b26400073c05ab67616d00001e02f6a713be4f418307ab7ffaf4",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0267d0cba50eae9026b8958755ab67616d00001e02e85259a1cae29a8d91f2093dab67616d00001e02f3eaae22e1c6b26400073c05ab67616d00001e02f6a713be4f418307ab7ffaf4",
+        "width": 60
+      }
+    ],
+    "name": "Songs as Conversations",
+    "owner": {
+      "display_name": "8eyes",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31msj6m24de7ivurcahklraxfeoq"
+      },
+      "href": "https://api.spotify.com/v1/users/31msj6m24de7ivurcahklraxfeoq",
+      "id": "31msj6m24de7ivurcahklraxfeoq",
+      "type": "user",
+      "uri": "spotify:user:31msj6m24de7ivurcahklraxfeoq"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAUPQF+ZJNaFmWaxXNmTjrieKfJBXU",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5d9arCrei0ygJbJy9pF3fK/tracks",
+      "total": 79
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5d9arCrei0ygJbJy9pF3fK"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5iqKiMPJCn6GcWfsudbtJ6"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5iqKiMPJCn6GcWfsudbtJ6",
+    "id": "5iqKiMPJCn6GcWfsudbtJ6",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e020977946757bcd3f637cc57adab67616d00001e023303a842ee1bc0b23204333dab67616d00001e0243afb53fa6744150c5247babab67616d00001e0284cf2b5ab56c404729090b4e",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e020977946757bcd3f637cc57adab67616d00001e023303a842ee1bc0b23204333dab67616d00001e0243afb53fa6744150c5247babab67616d00001e0284cf2b5ab56c404729090b4e",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e020977946757bcd3f637cc57adab67616d00001e023303a842ee1bc0b23204333dab67616d00001e0243afb53fa6744150c5247babab67616d00001e0284cf2b5ab56c404729090b4e",
+        "width": 60
+      }
+    ],
+    "name": "Second Breakfast Club",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABffmaYulmkuOgzZ4vSoatD892wJ2",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5iqKiMPJCn6GcWfsudbtJ6/tracks",
+      "total": 4
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5iqKiMPJCn6GcWfsudbtJ6"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6GCNLKK8gamq1JXdR0uSU6"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6GCNLKK8gamq1JXdR0uSU6",
+    "id": "6GCNLKK8gamq1JXdR0uSU6",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021f44db452a68e229650a302cab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e0268b90c3b34c3ac22856ddab8",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021f44db452a68e229650a302cab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e0268b90c3b34c3ac22856ddab8",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021f44db452a68e229650a302cab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e0268b90c3b34c3ac22856ddab8",
+        "width": 60
+      }
+    ],
+    "name": "Back home ",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAP3PrFUQkRsnzbMre5XT/sWkd5OBG",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6GCNLKK8gamq1JXdR0uSU6/tracks",
+      "total": 62
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6GCNLKK8gamq1JXdR0uSU6"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5T5IkmcWuUc3uCZNFzmn7r"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5T5IkmcWuUc3uCZNFzmn7r",
+    "id": "5T5IkmcWuUc3uCZNFzmn7r",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02068b16c562ea0f641e4022ec",
+        "width": null
+      }
+    ],
+    "name": "Piano",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAA5mk6SiuupYoce71ZBecmizGflUC",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5T5IkmcWuUc3uCZNFzmn7r/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5T5IkmcWuUc3uCZNFzmn7r"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5OQLCcpkqqqqzWtdzmy8qi"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5OQLCcpkqqqqzWtdzmy8qi",
+    "id": "5OQLCcpkqqqqzWtdzmy8qi",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e020be10ab2577bc573f753c3d4ab67616d00001e021a9d9b365004818d3d6486bfab67616d00001e0223039aa8a07ca558dae93420ab67616d00001e0289b80b00423649d7dbf23d33",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e020be10ab2577bc573f753c3d4ab67616d00001e021a9d9b365004818d3d6486bfab67616d00001e0223039aa8a07ca558dae93420ab67616d00001e0289b80b00423649d7dbf23d33",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e020be10ab2577bc573f753c3d4ab67616d00001e021a9d9b365004818d3d6486bfab67616d00001e0223039aa8a07ca558dae93420ab67616d00001e0289b80b00423649d7dbf23d33",
+        "width": 60
+      }
+    ],
+    "name": "Jazzy Rap",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAADnfF/eTOQgK+C2p9nRHTkuM4t/no",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5OQLCcpkqqqqzWtdzmy8qi/tracks",
+      "total": 13
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5OQLCcpkqqqqzWtdzmy8qi"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0zZyNEuThWwOMNqXsatY0E"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0zZyNEuThWwOMNqXsatY0E",
+    "id": "0zZyNEuThWwOMNqXsatY0E",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e0291fcdc499f2dbfbcd7e58b59",
+        "width": null
+      }
+    ],
+    "name": "Death",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABCamz2Z0nMjUSqtE4MQnFxHqMHE0",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0zZyNEuThWwOMNqXsatY0E/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0zZyNEuThWwOMNqXsatY0E"
+  },
+  {
+    "collaborative": false,
+    "description": "calm love",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7kixgIoayW5DL3FyR6dyKQ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7kixgIoayW5DL3FyR6dyKQ",
+    "id": "7kixgIoayW5DL3FyR6dyKQ",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0209537789ddb4692664d1ea03ab67616d00001e0210b3ebc65d2f65964cf461d8ab67616d00001e02211ccbdd48089f040731cda4ab67616d00001e023f203b8d0d8e54fab416a825",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0209537789ddb4692664d1ea03ab67616d00001e0210b3ebc65d2f65964cf461d8ab67616d00001e02211ccbdd48089f040731cda4ab67616d00001e023f203b8d0d8e54fab416a825",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0209537789ddb4692664d1ea03ab67616d00001e0210b3ebc65d2f65964cf461d8ab67616d00001e02211ccbdd48089f040731cda4ab67616d00001e023f203b8d0d8e54fab416a825",
+        "width": 60
+      }
+    ],
+    "name": "lily of the valley vibes",
+    "owner": {
+      "display_name": "Larissa Lacey",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/tvnpm74r9b930ag7tm72q3g1z"
+      },
+      "href": "https://api.spotify.com/v1/users/tvnpm74r9b930ag7tm72q3g1z",
+      "id": "tvnpm74r9b930ag7tm72q3g1z",
+      "type": "user",
+      "uri": "spotify:user:tvnpm74r9b930ag7tm72q3g1z"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAHW/Ati0Ce5mSvFHY7yYG82ByxkE1",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7kixgIoayW5DL3FyR6dyKQ/tracks",
+      "total": 26
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7kixgIoayW5DL3FyR6dyKQ"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/22v1vlR17HZeuIVDRWEn9J"
+    },
+    "href": "https://api.spotify.com/v1/playlists/22v1vlR17HZeuIVDRWEn9J",
+    "id": "22v1vlR17HZeuIVDRWEn9J",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02373c63a4666fb7193febc167ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e028381a681f4e0094fd4b33081ab67616d00001e028e43ab6951f2b8d70f243088",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02373c63a4666fb7193febc167ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e028381a681f4e0094fd4b33081ab67616d00001e028e43ab6951f2b8d70f243088",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02373c63a4666fb7193febc167ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e028381a681f4e0094fd4b33081ab67616d00001e028e43ab6951f2b8d70f243088",
+        "width": 60
+      }
+    ],
+    "name": "beautiful jazz guitar loops",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACNZ62kN5l7LPqs/m2hfdDPjxH7Ua",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/22v1vlR17HZeuIVDRWEn9J/tracks",
+      "total": 6
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:22v1vlR17HZeuIVDRWEn9J"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/12PySPS03mVaZGVZlZaW8q"
+    },
+    "href": "https://api.spotify.com/v1/playlists/12PySPS03mVaZGVZlZaW8q",
+    "id": "12PySPS03mVaZGVZlZaW8q",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0205418a99083b7551b30f5593ab67616d00001e0217f7b63037246f4c30188531ab67616d00001e02f1260b33cc420dc713a1a36cab67616d00001e02faab595468981d503d563b02",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0205418a99083b7551b30f5593ab67616d00001e0217f7b63037246f4c30188531ab67616d00001e02f1260b33cc420dc713a1a36cab67616d00001e02faab595468981d503d563b02",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0205418a99083b7551b30f5593ab67616d00001e0217f7b63037246f4c30188531ab67616d00001e02f1260b33cc420dc713a1a36cab67616d00001e02faab595468981d503d563b02",
+        "width": 60
+      }
+    ],
+    "name": "🎸",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAFf3PF3KXvwZ9SVG911zo/7Xidhds",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/12PySPS03mVaZGVZlZaW8q/tracks",
+      "total": 16
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:12PySPS03mVaZGVZlZaW8q"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2hklrSJHlO4dVzM2GYHRgp"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2hklrSJHlO4dVzM2GYHRgp",
+    "id": "2hklrSJHlO4dVzM2GYHRgp",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e023a2b28e4610e16dbcb58e9d3ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e0279c0d52d585479817330b7acab67616d00001e02967b0f0c4fb65d58f97d7bc8",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e023a2b28e4610e16dbcb58e9d3ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e0279c0d52d585479817330b7acab67616d00001e02967b0f0c4fb65d58f97d7bc8",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e023a2b28e4610e16dbcb58e9d3ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e0279c0d52d585479817330b7acab67616d00001e02967b0f0c4fb65d58f97d7bc8",
+        "width": 60
+      }
+    ],
+    "name": "Easy happy light uplifting music",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAFKGA5xjzvF4FrApeQUkFDKBqnPJH",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2hklrSJHlO4dVzM2GYHRgp/tracks",
+      "total": 19
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2hklrSJHlO4dVzM2GYHRgp"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2VyyRYLcs211ZwrCafr2xz"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2VyyRYLcs211ZwrCafr2xz",
+    "id": "2VyyRYLcs211ZwrCafr2xz",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e02950deb96822bf7d31739c235ab67616d00001e02c6ad2b2b62b581a23a7c1759ab67616d00001e02da4f935fe46f4ac3084b1e3a",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e02950deb96822bf7d31739c235ab67616d00001e02c6ad2b2b62b581a23a7c1759ab67616d00001e02da4f935fe46f4ac3084b1e3a",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e02950deb96822bf7d31739c235ab67616d00001e02c6ad2b2b62b581a23a7c1759ab67616d00001e02da4f935fe46f4ac3084b1e3a",
+        "width": 60
+      }
+    ],
+    "name": "Mom Dad RoadTrip",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACsNDLrnlOtDpaP/RS44CXSD24Sm4",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2VyyRYLcs211ZwrCafr2xz/tracks",
+      "total": 8
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2VyyRYLcs211ZwrCafr2xz"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6QRRsrEiuRsPVtQMJDyp4P"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6QRRsrEiuRsPVtQMJDyp4P",
+    "id": "6QRRsrEiuRsPVtQMJDyp4P",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e027e976f366ae0e74bc93e610dab67616d00001e02950deb96822bf7d31739c235ab67616d00001e029d3523863e6782700d2cb5baab67616d00001e02a14b687d6a68f656d5b4b9f5",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e027e976f366ae0e74bc93e610dab67616d00001e02950deb96822bf7d31739c235ab67616d00001e029d3523863e6782700d2cb5baab67616d00001e02a14b687d6a68f656d5b4b9f5",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e027e976f366ae0e74bc93e610dab67616d00001e02950deb96822bf7d31739c235ab67616d00001e029d3523863e6782700d2cb5baab67616d00001e02a14b687d6a68f656d5b4b9f5",
+        "width": 60
+      }
+    ],
+    "name": "Work Work Work",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAOWxeOD9A8z3luU5czFEx6pxiHnCW",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6QRRsrEiuRsPVtQMJDyp4P/tracks",
+      "total": 50
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6QRRsrEiuRsPVtQMJDyp4P"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0jXHmtU1eZp9ER0y283pm3"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0jXHmtU1eZp9ER0y283pm3",
+    "id": "0jXHmtU1eZp9ER0y283pm3",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021e3dbe4453ed61633c472fbeab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e028848d57cbfa7751e028f4dc9",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021e3dbe4453ed61633c472fbeab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e028848d57cbfa7751e028f4dc9",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021e3dbe4453ed61633c472fbeab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e028848d57cbfa7751e028f4dc9",
+        "width": 60
+      }
+    ],
+    "name": "John",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAC28UdqiJZG9dUptEtbAZo4uTBy6g",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0jXHmtU1eZp9ER0y283pm3/tracks",
+      "total": 10
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0jXHmtU1eZp9ER0y283pm3"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3kV0VXYtN9SgbdCvvOOWqT"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3kV0VXYtN9SgbdCvvOOWqT",
+    "id": "3kV0VXYtN9SgbdCvvOOWqT",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02e6f804fb1092a0a052aec3a6",
+        "width": null
+      }
+    ],
+    "name": "I want to learn these guitar solos",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABOVju/P7Dv/WsxZVori2Oc6tmGoA",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3kV0VXYtN9SgbdCvvOOWqT/tracks",
+      "total": 3
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3kV0VXYtN9SgbdCvvOOWqT"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/57j383CALVaEpKK8svG7wJ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/57j383CALVaEpKK8svG7wJ",
+    "id": "57j383CALVaEpKK8svG7wJ",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02a2b1d3e73c66663c01351bcf",
+        "width": null
+      }
+    ],
+    "name": "Learn on guitar ",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAAi/KcWZ8ni+6ZJyQf9AM/E0RLKK0",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/57j383CALVaEpKK8svG7wJ/tracks",
+      "total": 1
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:57j383CALVaEpKK8svG7wJ"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3K66iCgBgVEyUlnTwE7OwX"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3K66iCgBgVEyUlnTwE7OwX",
+    "id": "3K66iCgBgVEyUlnTwE7OwX",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e021165016635872911fd312dca",
+        "width": null
+      }
+    ],
+    "name": "cool guitar songs",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAA82pb5XozcUsOMCv5HzfVivJXDfB",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3K66iCgBgVEyUlnTwE7OwX/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3K66iCgBgVEyUlnTwE7OwX"
+  },
+  {
+    "collaborative": false,
+    "description": "The best indie and alternative rock and alt pop songs for you.",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/1HR1tSif7WFmP7IEzSYKii"
+    },
+    "href": "https://api.spotify.com/v1/playlists/1HR1tSif7WFmP7IEzSYKii",
+    "id": "1HR1tSif7WFmP7IEzSYKii",
+    "images": [
+      {
+        "height": null,
+        "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84bda4c5a5d98a51cccb563781",
+        "width": null
+      }
+    ],
+    "name": "Indie Rock Pops 🎶",
+    "owner": {
+      "display_name": "Musicforyou",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31zrylwz472idlcj2tbawvakhytu"
+      },
+      "href": "https://api.spotify.com/v1/users/31zrylwz472idlcj2tbawvakhytu",
+      "id": "31zrylwz472idlcj2tbawvakhytu",
+      "type": "user",
+      "uri": "spotify:user:31zrylwz472idlcj2tbawvakhytu"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAB1KQCbDeN0EcrXHby+MDeWpp8Lpqq",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/1HR1tSif7WFmP7IEzSYKii/tracks",
+      "total": 88
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:1HR1tSif7WFmP7IEzSYKii"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/4NyAMoNSraxTxtnjH7jl3i"
+    },
+    "href": "https://api.spotify.com/v1/playlists/4NyAMoNSraxTxtnjH7jl3i",
+    "id": "4NyAMoNSraxTxtnjH7jl3i",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e021336b31b6a1799f0de5807acab67616d00001e0263fa4751355b66f236943275ab67616d00001e029b0d8dc07c6d21bb337b78b4ab67616d00001e02be44a0f283a6c43c04c53d2d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e021336b31b6a1799f0de5807acab67616d00001e0263fa4751355b66f236943275ab67616d00001e029b0d8dc07c6d21bb337b78b4ab67616d00001e02be44a0f283a6c43c04c53d2d",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e021336b31b6a1799f0de5807acab67616d00001e0263fa4751355b66f236943275ab67616d00001e029b0d8dc07c6d21bb337b78b4ab67616d00001e02be44a0f283a6c43c04c53d2d",
+        "width": 60
+      }
+    ],
+    "name": "Hyyped Up",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAEqwWw8AbWi0BZ7qcdEzyvjGWfDAG",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/4NyAMoNSraxTxtnjH7jl3i/tracks",
+      "total": 17
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:4NyAMoNSraxTxtnjH7jl3i"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3AZSpL20czpaqLgAo9EWB4"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3AZSpL20czpaqLgAo9EWB4",
+    "id": "3AZSpL20czpaqLgAo9EWB4",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02f8f636b6478d4ba9bd85e339",
+        "width": null
+      }
+    ],
+    "name": "Punjabi",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAA+0HJnjPTJgSNb4Hb7vYTOCFlMl+",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3AZSpL20czpaqLgAo9EWB4/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3AZSpL20czpaqLgAo9EWB4"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6yAu5aj4RwUoICGWxaJW5v"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6yAu5aj4RwUoICGWxaJW5v",
+    "id": "6yAu5aj4RwUoICGWxaJW5v",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0284cf2b5ab56c404729090b4eab67616d00001e028c1fadcc997a65384f34d694ab67616d00001e02b9000413b688d298a7ce999eab67616d00001e02dc15c262235990232f3a030f",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0284cf2b5ab56c404729090b4eab67616d00001e028c1fadcc997a65384f34d694ab67616d00001e02b9000413b688d298a7ce999eab67616d00001e02dc15c262235990232f3a030f",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0284cf2b5ab56c404729090b4eab67616d00001e028c1fadcc997a65384f34d694ab67616d00001e02b9000413b688d298a7ce999eab67616d00001e02dc15c262235990232f3a030f",
+        "width": 60
+      }
+    ],
+    "name": "Carplay",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAADSXl6RDij3n/64LdR+06+HUELlea",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6yAu5aj4RwUoICGWxaJW5v/tracks",
+      "total": 9
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6yAu5aj4RwUoICGWxaJW5v"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5d9arCrei0ygJbJy9pF3fK"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5d9arCrei0ygJbJy9pF3fK",
+    "id": "5d9arCrei0ygJbJy9pF3fK",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0267d0cba50eae9026b8958755ab67616d00001e02e85259a1cae29a8d91f2093dab67616d00001e02f3eaae22e1c6b26400073c05ab67616d00001e02f6a713be4f418307ab7ffaf4",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0267d0cba50eae9026b8958755ab67616d00001e02e85259a1cae29a8d91f2093dab67616d00001e02f3eaae22e1c6b26400073c05ab67616d00001e02f6a713be4f418307ab7ffaf4",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0267d0cba50eae9026b8958755ab67616d00001e02e85259a1cae29a8d91f2093dab67616d00001e02f3eaae22e1c6b26400073c05ab67616d00001e02f6a713be4f418307ab7ffaf4",
+        "width": 60
+      }
+    ],
+    "name": "Songs as Conversations",
+    "owner": {
+      "display_name": "8eyes",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31msj6m24de7ivurcahklraxfeoq"
+      },
+      "href": "https://api.spotify.com/v1/users/31msj6m24de7ivurcahklraxfeoq",
+      "id": "31msj6m24de7ivurcahklraxfeoq",
+      "type": "user",
+      "uri": "spotify:user:31msj6m24de7ivurcahklraxfeoq"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAUPQF+ZJNaFmWaxXNmTjrieKfJBXU",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5d9arCrei0ygJbJy9pF3fK/tracks",
+      "total": 79
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5d9arCrei0ygJbJy9pF3fK"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5iqKiMPJCn6GcWfsudbtJ6"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5iqKiMPJCn6GcWfsudbtJ6",
+    "id": "5iqKiMPJCn6GcWfsudbtJ6",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e020977946757bcd3f637cc57adab67616d00001e023303a842ee1bc0b23204333dab67616d00001e0243afb53fa6744150c5247babab67616d00001e0284cf2b5ab56c404729090b4e",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e020977946757bcd3f637cc57adab67616d00001e023303a842ee1bc0b23204333dab67616d00001e0243afb53fa6744150c5247babab67616d00001e0284cf2b5ab56c404729090b4e",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e020977946757bcd3f637cc57adab67616d00001e023303a842ee1bc0b23204333dab67616d00001e0243afb53fa6744150c5247babab67616d00001e0284cf2b5ab56c404729090b4e",
+        "width": 60
+      }
+    ],
+    "name": "Second Breakfast Club",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABffmaYulmkuOgzZ4vSoatD892wJ2",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5iqKiMPJCn6GcWfsudbtJ6/tracks",
+      "total": 4
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5iqKiMPJCn6GcWfsudbtJ6"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6GCNLKK8gamq1JXdR0uSU6"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6GCNLKK8gamq1JXdR0uSU6",
+    "id": "6GCNLKK8gamq1JXdR0uSU6",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021f44db452a68e229650a302cab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e0268b90c3b34c3ac22856ddab8",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021f44db452a68e229650a302cab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e0268b90c3b34c3ac22856ddab8",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021f44db452a68e229650a302cab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e0268b90c3b34c3ac22856ddab8",
+        "width": 60
+      }
+    ],
+    "name": "Back home ",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAP3PrFUQkRsnzbMre5XT/sWkd5OBG",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6GCNLKK8gamq1JXdR0uSU6/tracks",
+      "total": 62
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6GCNLKK8gamq1JXdR0uSU6"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5T5IkmcWuUc3uCZNFzmn7r"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5T5IkmcWuUc3uCZNFzmn7r",
+    "id": "5T5IkmcWuUc3uCZNFzmn7r",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02068b16c562ea0f641e4022ec",
+        "width": null
+      }
+    ],
+    "name": "Piano",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAA5mk6SiuupYoce71ZBecmizGflUC",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5T5IkmcWuUc3uCZNFzmn7r/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5T5IkmcWuUc3uCZNFzmn7r"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/5OQLCcpkqqqqzWtdzmy8qi"
+    },
+    "href": "https://api.spotify.com/v1/playlists/5OQLCcpkqqqqzWtdzmy8qi",
+    "id": "5OQLCcpkqqqqzWtdzmy8qi",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e020be10ab2577bc573f753c3d4ab67616d00001e021a9d9b365004818d3d6486bfab67616d00001e0223039aa8a07ca558dae93420ab67616d00001e0289b80b00423649d7dbf23d33",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e020be10ab2577bc573f753c3d4ab67616d00001e021a9d9b365004818d3d6486bfab67616d00001e0223039aa8a07ca558dae93420ab67616d00001e0289b80b00423649d7dbf23d33",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e020be10ab2577bc573f753c3d4ab67616d00001e021a9d9b365004818d3d6486bfab67616d00001e0223039aa8a07ca558dae93420ab67616d00001e0289b80b00423649d7dbf23d33",
+        "width": 60
+      }
+    ],
+    "name": "Jazzy Rap",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAADnfF/eTOQgK+C2p9nRHTkuM4t/no",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/5OQLCcpkqqqqzWtdzmy8qi/tracks",
+      "total": 13
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:5OQLCcpkqqqqzWtdzmy8qi"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0zZyNEuThWwOMNqXsatY0E"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0zZyNEuThWwOMNqXsatY0E",
+    "id": "0zZyNEuThWwOMNqXsatY0E",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e0291fcdc499f2dbfbcd7e58b59",
+        "width": null
+      }
+    ],
+    "name": "Death",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABCamz2Z0nMjUSqtE4MQnFxHqMHE0",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0zZyNEuThWwOMNqXsatY0E/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0zZyNEuThWwOMNqXsatY0E"
+  },
+  {
+    "collaborative": false,
+    "description": "calm love",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/7kixgIoayW5DL3FyR6dyKQ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/7kixgIoayW5DL3FyR6dyKQ",
+    "id": "7kixgIoayW5DL3FyR6dyKQ",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0209537789ddb4692664d1ea03ab67616d00001e0210b3ebc65d2f65964cf461d8ab67616d00001e02211ccbdd48089f040731cda4ab67616d00001e023f203b8d0d8e54fab416a825",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0209537789ddb4692664d1ea03ab67616d00001e0210b3ebc65d2f65964cf461d8ab67616d00001e02211ccbdd48089f040731cda4ab67616d00001e023f203b8d0d8e54fab416a825",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0209537789ddb4692664d1ea03ab67616d00001e0210b3ebc65d2f65964cf461d8ab67616d00001e02211ccbdd48089f040731cda4ab67616d00001e023f203b8d0d8e54fab416a825",
+        "width": 60
+      }
+    ],
+    "name": "lily of the valley vibes",
+    "owner": {
+      "display_name": "Larissa Lacey",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/tvnpm74r9b930ag7tm72q3g1z"
+      },
+      "href": "https://api.spotify.com/v1/users/tvnpm74r9b930ag7tm72q3g1z",
+      "id": "tvnpm74r9b930ag7tm72q3g1z",
+      "type": "user",
+      "uri": "spotify:user:tvnpm74r9b930ag7tm72q3g1z"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAHW/Ati0Ce5mSvFHY7yYG82ByxkE1",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/7kixgIoayW5DL3FyR6dyKQ/tracks",
+      "total": 26
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:7kixgIoayW5DL3FyR6dyKQ"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/22v1vlR17HZeuIVDRWEn9J"
+    },
+    "href": "https://api.spotify.com/v1/playlists/22v1vlR17HZeuIVDRWEn9J",
+    "id": "22v1vlR17HZeuIVDRWEn9J",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e02373c63a4666fb7193febc167ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e028381a681f4e0094fd4b33081ab67616d00001e028e43ab6951f2b8d70f243088",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e02373c63a4666fb7193febc167ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e028381a681f4e0094fd4b33081ab67616d00001e028e43ab6951f2b8d70f243088",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e02373c63a4666fb7193febc167ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e028381a681f4e0094fd4b33081ab67616d00001e028e43ab6951f2b8d70f243088",
+        "width": 60
+      }
+    ],
+    "name": "beautiful jazz guitar loops",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACNZ62kN5l7LPqs/m2hfdDPjxH7Ua",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/22v1vlR17HZeuIVDRWEn9J/tracks",
+      "total": 6
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:22v1vlR17HZeuIVDRWEn9J"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/12PySPS03mVaZGVZlZaW8q"
+    },
+    "href": "https://api.spotify.com/v1/playlists/12PySPS03mVaZGVZlZaW8q",
+    "id": "12PySPS03mVaZGVZlZaW8q",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0205418a99083b7551b30f5593ab67616d00001e0217f7b63037246f4c30188531ab67616d00001e02f1260b33cc420dc713a1a36cab67616d00001e02faab595468981d503d563b02",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0205418a99083b7551b30f5593ab67616d00001e0217f7b63037246f4c30188531ab67616d00001e02f1260b33cc420dc713a1a36cab67616d00001e02faab595468981d503d563b02",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0205418a99083b7551b30f5593ab67616d00001e0217f7b63037246f4c30188531ab67616d00001e02f1260b33cc420dc713a1a36cab67616d00001e02faab595468981d503d563b02",
+        "width": 60
+      }
+    ],
+    "name": "🎸",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAFf3PF3KXvwZ9SVG911zo/7Xidhds",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/12PySPS03mVaZGVZlZaW8q/tracks",
+      "total": 16
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:12PySPS03mVaZGVZlZaW8q"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2hklrSJHlO4dVzM2GYHRgp"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2hklrSJHlO4dVzM2GYHRgp",
+    "id": "2hklrSJHlO4dVzM2GYHRgp",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e023a2b28e4610e16dbcb58e9d3ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e0279c0d52d585479817330b7acab67616d00001e02967b0f0c4fb65d58f97d7bc8",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e023a2b28e4610e16dbcb58e9d3ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e0279c0d52d585479817330b7acab67616d00001e02967b0f0c4fb65d58f97d7bc8",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e023a2b28e4610e16dbcb58e9d3ab67616d00001e024e376f1979f9f8e657276078ab67616d00001e0279c0d52d585479817330b7acab67616d00001e02967b0f0c4fb65d58f97d7bc8",
+        "width": 60
+      }
+    ],
+    "name": "Easy happy light uplifting music",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAFKGA5xjzvF4FrApeQUkFDKBqnPJH",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2hklrSJHlO4dVzM2GYHRgp/tracks",
+      "total": 19
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2hklrSJHlO4dVzM2GYHRgp"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/2VyyRYLcs211ZwrCafr2xz"
+    },
+    "href": "https://api.spotify.com/v1/playlists/2VyyRYLcs211ZwrCafr2xz",
+    "id": "2VyyRYLcs211ZwrCafr2xz",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e02950deb96822bf7d31739c235ab67616d00001e02c6ad2b2b62b581a23a7c1759ab67616d00001e02da4f935fe46f4ac3084b1e3a",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e02950deb96822bf7d31739c235ab67616d00001e02c6ad2b2b62b581a23a7c1759ab67616d00001e02da4f935fe46f4ac3084b1e3a",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e0259ae8cf65d498afdd5585634ab67616d00001e02950deb96822bf7d31739c235ab67616d00001e02c6ad2b2b62b581a23a7c1759ab67616d00001e02da4f935fe46f4ac3084b1e3a",
+        "width": 60
+      }
+    ],
+    "name": "Mom Dad RoadTrip",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAACsNDLrnlOtDpaP/RS44CXSD24Sm4",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/2VyyRYLcs211ZwrCafr2xz/tracks",
+      "total": 8
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:2VyyRYLcs211ZwrCafr2xz"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/6QRRsrEiuRsPVtQMJDyp4P"
+    },
+    "href": "https://api.spotify.com/v1/playlists/6QRRsrEiuRsPVtQMJDyp4P",
+    "id": "6QRRsrEiuRsPVtQMJDyp4P",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e027e976f366ae0e74bc93e610dab67616d00001e02950deb96822bf7d31739c235ab67616d00001e029d3523863e6782700d2cb5baab67616d00001e02a14b687d6a68f656d5b4b9f5",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e027e976f366ae0e74bc93e610dab67616d00001e02950deb96822bf7d31739c235ab67616d00001e029d3523863e6782700d2cb5baab67616d00001e02a14b687d6a68f656d5b4b9f5",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e027e976f366ae0e74bc93e610dab67616d00001e02950deb96822bf7d31739c235ab67616d00001e029d3523863e6782700d2cb5baab67616d00001e02a14b687d6a68f656d5b4b9f5",
+        "width": 60
+      }
+    ],
+    "name": "Work Work Work",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAOWxeOD9A8z3luU5czFEx6pxiHnCW",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/6QRRsrEiuRsPVtQMJDyp4P/tracks",
+      "total": 50
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:6QRRsrEiuRsPVtQMJDyp4P"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/0jXHmtU1eZp9ER0y283pm3"
+    },
+    "href": "https://api.spotify.com/v1/playlists/0jXHmtU1eZp9ER0y283pm3",
+    "id": "0jXHmtU1eZp9ER0y283pm3",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://mosaic.scdn.co/640/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021e3dbe4453ed61633c472fbeab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e028848d57cbfa7751e028f4dc9",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://mosaic.scdn.co/300/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021e3dbe4453ed61633c472fbeab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e028848d57cbfa7751e028f4dc9",
+        "width": 300
+      },
+      {
+        "height": 60,
+        "url": "https://mosaic.scdn.co/60/ab67616d00001e021a4c7c7e6eeaee67c9e8ce71ab67616d00001e021e3dbe4453ed61633c472fbeab67616d00001e027af5fdc5ef048a68db62b85fab67616d00001e028848d57cbfa7751e028f4dc9",
+        "width": 60
+      }
+    ],
+    "name": "John",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAC28UdqiJZG9dUptEtbAZo4uTBy6g",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/0jXHmtU1eZp9ER0y283pm3/tracks",
+      "total": 10
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:0jXHmtU1eZp9ER0y283pm3"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3kV0VXYtN9SgbdCvvOOWqT"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3kV0VXYtN9SgbdCvvOOWqT",
+    "id": "3kV0VXYtN9SgbdCvvOOWqT",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02e6f804fb1092a0a052aec3a6",
+        "width": null
+      }
+    ],
+    "name": "I want to learn these guitar solos",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAABOVju/P7Dv/WsxZVori2Oc6tmGoA",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3kV0VXYtN9SgbdCvvOOWqT/tracks",
+      "total": 3
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3kV0VXYtN9SgbdCvvOOWqT"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/57j383CALVaEpKK8svG7wJ"
+    },
+    "href": "https://api.spotify.com/v1/playlists/57j383CALVaEpKK8svG7wJ",
+    "id": "57j383CALVaEpKK8svG7wJ",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e02a2b1d3e73c66663c01351bcf",
+        "width": null
+      }
+    ],
+    "name": "Learn on guitar ",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAAi/KcWZ8ni+6ZJyQf9AM/E0RLKK0",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/57j383CALVaEpKK8svG7wJ/tracks",
+      "total": 1
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:57j383CALVaEpKK8svG7wJ"
+  },
+  {
+    "collaborative": false,
+    "description": "",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/playlist/3K66iCgBgVEyUlnTwE7OwX"
+    },
+    "href": "https://api.spotify.com/v1/playlists/3K66iCgBgVEyUlnTwE7OwX",
+    "id": "3K66iCgBgVEyUlnTwE7OwX",
+    "images": [
+      {
+        "height": null,
+        "url": "https://i.scdn.co/image/ab67616d00001e021165016635872911fd312dca",
+        "width": null
+      }
+    ],
+    "name": "cool guitar songs",
+    "owner": {
+      "display_name": "John Wesley",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/user/31hhrpcsmqebicz4wkkxvoytfrw4"
+      },
+      "href": "https://api.spotify.com/v1/users/31hhrpcsmqebicz4wkkxvoytfrw4",
+      "id": "31hhrpcsmqebicz4wkkxvoytfrw4",
+      "type": "user",
+      "uri": "spotify:user:31hhrpcsmqebicz4wkkxvoytfrw4"
+    },
+    "primary_color": null,
+    "public": true,
+    "snapshot_id": "AAAAA82pb5XozcUsOMCv5HzfVivJXDfB",
+    "tracks": {
+      "href": "https://api.spotify.com/v1/playlists/3K66iCgBgVEyUlnTwE7OwX/tracks",
+      "total": 2
+    },
+    "type": "playlist",
+    "uri": "spotify:playlist:3K66iCgBgVEyUlnTwE7OwX"
+  }
+]
